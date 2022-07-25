@@ -5,6 +5,7 @@ $(window).on('load', function() {
   const CHAPTER_ZOOM = 15;
 
   // First, try reading Options.csv
+  /*Comment out attempt to resolve options.csv 404 error
   $.get('csv/Options.csv', function(options) {
 
     $.get('csv/Chapters.csv', function(chapters) {
@@ -15,7 +16,9 @@ $(window).on('load', function() {
     }).fail(function(e) { alert('Found Options.csv, but could not read Chapters.csv') });
 
   // If not available, try from the Google Sheet
-  }).fail(function(e) {
+  }).fail(function(e) 
+  */
+  {
 
     var parse = function(res) {
       return Papa.parse(Papa.unparse(res[0].values), {header: true} ).data;

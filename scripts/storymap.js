@@ -47,7 +47,7 @@ $(window).on('load', function() {
       alert('You need to specify a valid Google Sheet (googleDocURL)')
     }
 
-  })
+  }
 
 
 

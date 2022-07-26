@@ -29,7 +29,7 @@ $(window).on('load', function() {
 
       if (typeof googleApiKey !== 'undefined' && googleApiKey) {
 
-        var apiUrl = 'https://sheets.googleapis.com/v4/spreadsheets/'
+        var apiUrl = 'https://sheets.googleapis.com/v4/spreadsheets/1MfVNAPik_NkAN65qJHIFoRtvTicKpdePMdZ7hoGdRKA/edit#gid=0?key=AIzaSyB49xQTNQSVATYAihUGv72DUQkxRq9ySis'
         var spreadsheetId = googleDocURL.split('/d/')[1].split('/')[0];
 
         $.when(

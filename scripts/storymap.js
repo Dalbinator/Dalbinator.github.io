@@ -29,8 +29,9 @@ $(window).on('load', function() {
 
       if (typeof googleApiKey !== 'undefined' && googleApiKey) {
 
-        var apiUrl = 'https://sheets.googleapis.com/v4/spreadsheets/'
-        var spreadsheetId = googleDocURL.split('/d/')[1].split('/')[0];
+        var apiUrl = 'https://sheets.googleapis.com/v4/spreadsheets/d/'
+		var spreadsheetId = 1MfVNAPik_NkAN65qJHIFoRtvTicKpdePMdZ7hoGdRKA/edit#gid=0;
+        //var spreadsheetId = googleDocURL.split('/d/')[1].split('/')[0];
 
         $.when(
           $.getJSON(apiUrl + spreadsheetId + '/values/Options?key=' + googleApiKey),

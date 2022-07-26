@@ -28,19 +28,7 @@ $(window).on('load', function() {
     if (typeof googleDocURL !== 'undefined' && googleDocURL) {
 
       if (typeof googleApiKey !== 'undefined' && googleApiKey) {
-		  /*
-        var apiUrl = 'https://sheets.googleapis.com/v4/spreadsheets/'
-        var spreadsheetId = googleDocURL.split('/d/')[1].split('/')[0];
-		*/
-		  
-		  /*original
-        $.when(
-          $.getJSON(apiUrl + spreadsheetId + '/values/Options?key=' + googleApiKey),
-          $.getJSON(apiUrl + spreadsheetId + '/values/Chapters?key=' + googleApiKey),
-        ).then(function(options, chapters) {
-          initMap(parse(options), parse(chapters))
-        })
-		  */
+		
           $.when(
 			  $.getJSON('https://sheets.googleapis.com/v4/spreadsheets/1MfVNAPik_NkAN65qJHIFoRtvTicKpdePMdZ7hoGdRKA/edit#gid=0/values/Options?key=AIzaSyB49xQTNQSVATYAihUGv72DUQkxRq9ySis'),
             $.getJSON('https://sheets.googleapis.com/v4/spreadsheets/1MfVNAPik_NkAN65qJHIFoRtvTicKpdePMdZ7hoGdRKA/edit#gid=0/values/Chapters?key=AIzaSyB49xQTNQSVATYAihUGv72DUQkxRq9ySis'),

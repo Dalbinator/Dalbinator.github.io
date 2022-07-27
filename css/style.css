@@ -120,6 +120,7 @@ a.source:visited {
 
 .in-focus {
   opacity: 1.0;
+  background-color: #778899;
 }
 
 .out-focus {
@@ -131,7 +132,7 @@ a.source:visited {
 }
 
 .leaflet-marker-icon {
-  opacity: 0.75;
+  opacity: 0.15;
 }
 
 /*

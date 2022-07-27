@@ -149,7 +149,7 @@
 			}
 		},
 		Thunderforest: {
-			url: '//{s}.tile.thunderforest.com/{variant}/{z}/{x}/{y}.png',
+			url: '//{s}.tile.thunderforest.com/{variant}/{z}/{x}/{y}.png?apikey=94df2c1a3f5143e9a142ca9523a8c3ca',
 			options: {
 				attribution:
 					'&copy; <a href="http://www.thunderforest.com/">Thunderforest</a>, {attribution.OpenStreetMap}',

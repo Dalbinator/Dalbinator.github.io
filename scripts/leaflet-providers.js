@@ -153,7 +153,7 @@
 			options: {
 				attribution:
 					'&copy; <a href="http://www.thunderforest.com/">Thunderforest</a>, {attribution.OpenStreetMap}',
-				variant: 'cycle'
+				variant: 'landscape'
 			},
 			variants: {
 				OpenCycleMap: 'cycle',

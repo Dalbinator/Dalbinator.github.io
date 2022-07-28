@@ -264,9 +264,9 @@
 						maxZoom: 18
 					}
 				},
-				TerrainBackground: {
+				TerrainLabels: {
 					options: {
-						variant: 'terrain-background',
+						variant: 'terrain-labels',
 						minZoom: 0,
 						maxZoom: 18
 					}

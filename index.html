@@ -15,9 +15,11 @@
     integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
     crossorigin=""></script>
 
-  <!-- Load Leaflet basemap providers -->
+  <!-- Load Leaflet basemap providers 
   <script src="https://unpkg.com/leaflet-providers@1.10.2/leaflet-providers.js"></script>
-
+commented out in order to try directly loading leaflet instead -->
+	  
+	  
   <!-- Load jQuery  -->
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
 
@@ -52,6 +54,17 @@
   <div class="loader">Loading...</div>
   <div id="map"></div>
 
+<!-- leafletjs instructions for loading map -->
+  <script type="text/javascript">
+var map = L.map('map').setView([0, 0], 9);
+L.tileLayer('https://tile.thunderforest.com/landscape/{z}/{x}/{y}.png?apikey=94df2c1a3f5143e9a142ca9523a8c3ca', {
+    maxZoom: 22,
+    attribution: '© https://www.thunderforest.com/'
+}).addTo(map);
+
+    </script>
+
+<!-- commenting out to try loading leaflet via leafletjs instructions
   <script type="text/javascript">
     // Create the Leaflet map with a generic start point
     var map = L.map('map', {
@@ -62,6 +75,8 @@
       tap: false
     });
   </script>
+end -->
+
 
   <script type="text/javascript" src="google-doc-url.js"></script>
   <script type="text/javascript" src="markers/leaflet.extra-markers.min.js"></script>

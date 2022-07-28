@@ -149,7 +149,13 @@
 			}
 		},
 	
-		
+		TF: {
+			url: 'https://tile.thunderforest.com/landscape/{z}/{x}/{y}.png?apikey=94df2c1a3f5143e9a142ca9523a8c3ca',
+			options: {
+				maxZoom: 17,
+				attribution: 'Need Attr.'
+			}
+		},
 		
 		Thunderforest: {
 			url: '//{s}.tile.thunderforest.com/{variant}/{z}/{x}/{y}.png?apikey=94df2c1a3f5143e9a142ca9523a8c3ca',

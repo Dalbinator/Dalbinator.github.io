@@ -141,6 +141,14 @@
 				attribution: 'Map data: &copy; <a href="http://www.openseamap.org">OpenSeaMap</a> contributors'
 			}
 		},
+		Maptiler: {
+			url: 'https://api.maptiler.com/maps/outdoor/{z}/{x}/{y}.png?key=K4a9knT0iEiGCzwTgiXu',
+			options: {
+				minZoom:1,
+				maxZoom:22,
+				attribution: 'maybe'
+			}
+		},
 		OpenTopoMap: {
 			url: '//{s}.tile.opentopomap.org/{z}/{x}/{y}.png',
 			options: {

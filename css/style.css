@@ -48,7 +48,7 @@ body {
   position: absolute;
   left: 0;
   top: 203px;
-  background-color: blue;
+  background-color: #0000FF;
   /*background-color: #778899;*/
   width: 100vw;
   z-index: 100;

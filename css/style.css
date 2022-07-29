@@ -25,7 +25,7 @@ body {
   padding: 5px;
 }
 
-/* Clearfix (clear floats) 
+/* Clearfix (clear floats) */
 .row::after {
   content: "";
   clear: both;

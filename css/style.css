@@ -21,7 +21,7 @@ body {
 
 .column {
   float: left;
-  width: 50%;
+  width: 45%;
   padding: 5px;
 }
 
@@ -30,6 +30,13 @@ body {
   content: "";
   clear: both;
   display: table;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
 }
 /*end image gallery*/
 

@@ -21,7 +21,7 @@ body {
   width: 100vw;
   height: calc(100vh - 203px);
   z-index: 80;
-  background-color: #0d450f !important;
+  background-color: #e5e5dc !important;
 }
 
 #contents {
@@ -49,7 +49,7 @@ body {
   position: absolute;
   left: 0;
   top: 203px;
-  background-color: #0000FF !important;
+  background-color: #b1bfae!important;
   /*background-color: #778899;*/
   width: 100vw;
   z-index: 100;
@@ -75,6 +75,7 @@ body {
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
+  border-radius: 25px;
 
   /* Three lines that center vertically */
   position: relative;
@@ -123,7 +124,7 @@ a.source:visited {
 
 .in-focus {
   opacity: 1.0;
-  background-color: blue;
+  background-color: #e5e5dc !important;
 }
 
 .out-focus {

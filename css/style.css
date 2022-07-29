@@ -147,6 +147,11 @@ a.source:visited {
   padding: 20px;
 }
 
+.description:empty {
+	margin: 0px;
+	padding: 0px;
+}
+
 .in-focus {
   opacity: 1.0;
   background-color: #e5e5dc !important;

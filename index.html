@@ -69,9 +69,11 @@
 
 <!--from maptiler -->
   <div id="map">
+	  <!-- from maptiler, maybe unneeded
        <a href="https://www.maptiler.com" style="position:absolute;left:10px;bottom:10px;z-index:999;"><img src="https://api.maptiler.com/resources/logo.svg" alt="MapTiler logo"></a>
      </div>
      <p><a href="https://www.maptiler.com/copyright/" target="_blank">© MapTiler</a> <a href="https://www.openstreetmap.org/copyright" target="_blank">© OpenStreetMap contributors</a></p>
+ -->
      <script>
        var map = L.map('map').setView([-58.90465, -217.17773], 3);
        L.tileLayer('https://api.maptiler.com/maps/outdoor/{z}/{x}/{y}.png?key=K4a9knT0iEiGCzwTgiXu',{
@@ -80,12 +82,12 @@
          minZoom: 1,
 	 maxZoom: 22,
          //attribution: "\u003ca href=\"https://www.maptiler.com/copyright/\" target=\"_blank\"\u003e\u0026copy; MapTiler\u003c/a\u003e \u003ca href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\"\u003e\u0026copy; OpenStreetMap contributors\u003c/a\u003e",
-         crossOrigin: true
-       }).addTo(map);
+         //crossOrigin: true
+       });
      </script>
   
   
-<!--original
+<!-original
   
   <div id="map"></div>
   

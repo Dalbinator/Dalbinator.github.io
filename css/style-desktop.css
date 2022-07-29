@@ -22,7 +22,7 @@
   }
 
   .leaflet-control-attribution {
-    visibility: visible;
+    visibility: hidden;
   }
 
 }

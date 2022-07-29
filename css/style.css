@@ -21,6 +21,7 @@ body {
   width: 100vw;
   height: calc(100vh - 203px);
   z-index: 80;
+  background-color: #0d450f !important;
 }
 
 #contents {

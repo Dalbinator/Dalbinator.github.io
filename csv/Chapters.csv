@@ -10,8 +10,7 @@ Lunch in Saksun,/img/LunchSaksun.jpg,,,Lunch in Saksun,18,Plain,green-dark,Saksu
 Hike in Rjornuvik,/img/1.png,,,Tuesday 8/16/2021,17,Plain,green-dark,Tjørnuvík,62.289395,-7.150049,,,,
 ,/img/2.png,,,,,,,,,,,,,
 ,,,,Wednesday ,,,,,,,,,,
-,,,,"<h2 style=""text-align:center;"">Thursday</h2>
-<br>
+Thursday,Thursday,,,"
 <div class=""row""> 
  <div class=""column""> 
   <img src=""https://dalbinator.github.io/img/1.png"" style=""width:100%""> 
@@ -19,7 +18,9 @@ Hike in Rjornuvik,/img/1.png,,,Tuesday 8/16/2021,17,Plain,green-dark,Tjørnuvík
  <div class=""column""> 
   <img src=""https://dalbinator.github.io/img/2.png"" style=""width:100%""> 
  </div> 
-</div>",,,,,,,,,,
+</div>
+<br>
+<h2 style=""text-align:center;"">Thursday</h2>",,,,,,,,,,
 ,,,,Friday 8/20/2021,,,,,,,,,,
 ,,,,Saturday 8/21/2021,,,,,,,,,,
 ,,,,Sunday 8/22/2021,,,,,,,,,,

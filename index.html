@@ -3,7 +3,19 @@
 
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta name="viewport" content="initial-scale=1, maximum-scale=1,user-scalable=no"/>
+  
+  <!--<meta name="viewport" content="initial-scale=1, maximum-scale=1,user-scalable=no"/>
+	  original code-->
+	  
+	  <!--from maptiler -->
+	  <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+	     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.css" />
+	     <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.js"></script>
+	     <style>
+	       #map {position: absolute; top: 0; right: 0; bottom: 0; left: 0;}
+	     </style>
+	  
+	  
   <link rel="icon" type="image/png" href="./favicon.png">
   <title>Leaflet Storymaps with Google Sheets Template</title>
 
@@ -15,18 +27,10 @@
     integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
     crossorigin=""></script>
 
-  <!-- Load Leaflet basemap providers -->
+  <!-- Load Leaflet basemap providers- original
   <script src="https://unpkg.com/leaflet-providers@1.10.2/leaflet-providers.js"></script>
-	  
-	  <!-- leafletjs instructions for loading map 
-	    <script type="text/javascript">
-	  var map = L.map('map').setView([0, 0], 9);
-	  L.tileLayer('https://tile.thunderforest.com/landscape/{z}/{x}/{y}.png?apikey=94df2c1a3f5143e9a142ca9523a8c3ca', {
-	      maxZoom: 22,
-	      attribution: '© https://www.thunderforest.com/'
-	  }).addTo(map);
-
-	      </script> -->
+--> 	  
+	 
 	  
   <!-- Load jQuery  -->
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
@@ -60,11 +64,30 @@
   </div>
 
   <div class="loader">Loading...</div>
+  
+
+
+<!--from maptiler -->
+  <div id="map">
+       <a href="https://www.maptiler.com" style="position:absolute;left:10px;bottom:10px;z-index:999;"><img src="https://api.maptiler.com/resources/logo.svg" alt="MapTiler logo"></a>
+     </div>
+     <p><a href="https://www.maptiler.com/copyright/" target="_blank">© MapTiler</a> <a href="https://www.openstreetmap.org/copyright" target="_blank">© OpenStreetMap contributors</a></p>
+     <script>
+       var map = L.map('map').setView([-58.90465, -217.17773], 3);
+       L.tileLayer('https://api.maptiler.com/maps/outdoor/{z}/{x}/{y}.png?key=K4a9knT0iEiGCzwTgiXu',{
+         tileSize: 512,
+         zoomOffset: -1,
+         minZoom: 1,
+         attribution: "\u003ca href=\"https://www.maptiler.com/copyright/\" target=\"_blank\"\u003e\u0026copy; MapTiler\u003c/a\u003e \u003ca href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\"\u003e\u0026copy; OpenStreetMap contributors\u003c/a\u003e",
+         crossOrigin: true
+       }).addTo(map);
+     </script>
+  
+  
+<!--original
+  
   <div id="map"></div>
-
-
-
-
+  
   <script type="text/javascript">
     // Create the Leaflet map with a generic start point
     var map = L.map('map', {
@@ -75,6 +98,7 @@
       tap: false
     });
   </script>
+  -->
 
 
 

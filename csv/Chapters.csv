@@ -6,18 +6,18 @@ Flight from IAD to CPH (7.5hrs)
 3 hr layover
 <br>
 Flight from CPH to FAE (2 hrs)",3,Hidden,,Flight,48.719961,-36.185918,,,geojson/dtoc.geojson,color:black;weight:4
-Arrival,,,,Vágar Airport to Kollafjørður to Saksun,11,Hidden,,Vágar Airport,62.16037174,-7.109527588,,,geojson/arrival.geojson,color:black;weight:3
+DAY 1 - ARRIVAL,,,,"<p align:""center"">Vágar Airport to Kollafjørður to Saksun</P>",11,Hidden,,Vágar Airport,62.16037174,-7.109527588,,,geojson/arrival.geojson,color:black;weight:3
 Lunch in Saksun,/img/LunchSaksun.jpg,,,Lunch in Saksun,17,Hidden,green-dark,Saksun,62.241611,-7.160276,,,,
-Hike in Rjornuvik,/img/1.png,,,Tuesday 8/16/2021,17,Plain,green-dark,Tjørnuvík,62.289395,-7.150049,,,,
-,/img/2.png,,,also turesday,,,,,,,,,,
+DAY 2 - HIKE FROM TJØRNUVIK,/img/1.png,,,,14,Plain,green-dark,Tjørnuvík,62.27439226,-7.183170319,,,geojson/tjornuvik.geojsn,color:black;weight:3
+,/img/2.png,,,,,,,,,,,,,
 ,,,,Wednesday ,,,,,,,,,,
 Thursday,Thursday,,,"
 <div class=""row""> 
  <div class=""column""> 
-  <img src=""https://dalbinator.github.io/img/1.png"" style=""width:100%""> 
+  <img src="""" style=""width:100%""> 
  </div> 
  <div class=""column""> 
-  <img src=""https://dalbinator.github.io/img/2.png"" style=""width:100%""> 
+  <img src="""" style=""width:100%""> 
  </div> 
 </div>",,,,,,,,,,
 ,,,,Thursday,,,,,,,,,,

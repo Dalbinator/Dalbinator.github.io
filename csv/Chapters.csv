@@ -1,14 +1,14 @@
 Chapter,Media Link,Media Credit,Media Credit Link,Description,Zoom,Marker,Marker Color,Location,Latitude,Longitude,Overlay,Overlay Transparency,GeoJSON Overlay,GeoJSON Feature Properties
 The Faroe Islands,https://upload.wikimedia.org/wikipedia/commons/b/bb/Faroe_Islands_by_Sentinel-2.jpg,"Copernicus Sentinel-2, ESA",https://scihub.copernicus.eu/dhus/#/home,The Faroe Islands Description,9,Plain,green-dark,Faroe Islands,61.8926,-6.9118,,,,
-IAD to CPH,,,,"<p align:""center"">8/14/2021- 8/15/2021</p>
+IAD to CPH to FAE,,,,"<p align:""center"">8/14/2021- 8/15/2021</p>
 <br>
 Flight from IAD to CPH (7.5hrs)
 <br>
 3 hr layover
 <br>
 Flight from CPH to FAE (2 hrs)",3,Hidden,,Flight,48.719961,-36.185918,,,geojson/dtoc.geojson,color:black;weight:4
-Arrival,,,,Vágar Airport to Kollafjørður to Saksun,10,Hidden,,Vágar Airport,62.16037174,-7.109527588,,,geojson/arrival.geojson,color:black;weight:3
-Lunch in Saksun,/img/LunchSaksun.jpg,,,Lunch in Saksun,18,Plain,green-dark,Saksun,62.241611,-7.160276,,,,
+Arrival,,,,Vágar Airport to Kollafjørður to Saksun,11,Hidden,,Vágar Airport,62.16037174,-7.109527588,,,geojson/arrival.geojson,color:black;weight:3
+Lunch in Saksun,/img/LunchSaksun.jpg,,,Lunch in Saksun,17,Hidden,green-dark,Saksun,62.241611,-7.160276,,,,
 Hike in Rjornuvik,/img/1.png,,,Tuesday 8/16/2021,17,Plain,green-dark,Tjørnuvík,62.289395,-7.150049,,,,
 ,/img/2.png,,,also turesday,,,,,,,,,,
 ,,,,Wednesday ,,,,,,,,,,

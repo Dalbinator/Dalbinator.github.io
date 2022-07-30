@@ -18,12 +18,7 @@
 		options: {
 			maxZoom: 17,
 			attribution: 'Need Attr.'
-	}
-	
-
-	L.tileLayer.provider = function (provider, options) {
-		return new L.TileLayer.Provider(provider, options);
-	};
+	}}}
 
 	return L;
-}));
+));

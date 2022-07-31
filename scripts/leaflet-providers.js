@@ -734,10 +734,10 @@
 				attribution: '{attribution.OpenStreetMap} &copy; <a href="https://carto.com/attributions">CARTO</a>',
 				subdomains: 'abcd',
 				maxZoom: 20,
-				variant: 'light_all'
+				variant: 'landscape'
 			},
 			variants: {
-				Positron: 'light_all',
+				Positron: 'landscape',
 				PositronNoLabels: 'light_nolabels',
 				PositronOnlyLabels: 'light_only_labels',
 				DarkMatter: 'dark_all',

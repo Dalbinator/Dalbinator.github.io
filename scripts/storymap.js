@@ -14,7 +14,7 @@ $(window).on('load', function() {
       )
     }).fail(function(e) { alert('Found Options.csv, but could not read Chapters.csv') });
 
-  // If not available, try from the Google Sheet
+  // If not available, try from the Google  Sheet
   }).fail(function(e) 
   
   {

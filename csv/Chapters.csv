@@ -1,6 +1,5 @@
 Chapter,Media Link,Media Credit,Media Credit Link,Description,Zoom,Marker,Marker Color,Location,Latitude,Longitude,Overlay,Overlay Transparency,GeoJSON Overlay,GeoJSON Feature Properties
 1,,,,The Faroe Islands Description,9,Plain,green-dark,Faroe Islands,61.8926,-6.9118,,,,
-1,,,,The Faroe Islands Description,9,Plain,green-dark,Faroe Islands,61.8926,-6.9118,,,,
 IAD to CPH to FAE,,,,"<p align:""center"">8/14/2021- 8/15/2021</p>
 Flight from IAD to CPH (7.5hrs)
 <br>
@@ -9,7 +8,7 @@ Flight from IAD to CPH (7.5hrs)
 Flight from CPH to FAE (2 hrs)",3,Hidden,,Flight,48.719961,-36.185918,,,geojson/dtoc.geojson,color:black;weight:4
 DAY 1 - ARRIVAL,,,,"<p align:""center"">Vágar Airport to Kollafjørður to Saksun</P>",11,Hidden,,Vágar Airport,62.16037174,-7.109527588,,,geojson/arrival.geojson,color:black;weight:3
 Lunch in Saksun,/img/LunchSaksun.jpg,,,Lunch in Saksun,17,Hidden,green-dark,Saksun,62.241611,-7.160276,,,,
-DAY 2 - HIKE FROM TJØRNUVIK,/img/1.png,,,,14,Plain,green-dark,Tjørnuvík,62.27439226,-7.183170319,,,geojson/tjornuvik.geojsn,color:black;weight:3
+DAY 2 - HIKE FROM TJØRNUVIK,/img/1.png,,,,14,Hidden,green-dark,Tjørnuvík,62.27439226,-7.183170319,,,geojson/tjornuvik.geojsn,color:black;weight:3
 ,/img/2.png,,,,,,,,,,,,,
 ,,,,Wednesday ,,,,,,,,,,
 Thursday,Thursday,,,"

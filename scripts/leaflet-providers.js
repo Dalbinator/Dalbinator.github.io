@@ -1096,6 +1096,13 @@
 					}
 				}
 			}
+		},
+		Bird: {
+			url: 'https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png',
+			options: {
+			      attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, &copy; <a href="https://carto.com/">Carto</a> | Imagery &copy; <a href="https://hibirdi.com/">Bird.i Ltd</a>, DigitalGlobe, Inc., CNES / AirbusDS and Bluesky International Ltd',
+			      maxZoom: 21,
+			    }
 		}
 	};
 

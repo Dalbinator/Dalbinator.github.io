@@ -263,7 +263,7 @@
 			}
 		},
 		MapTiler: {
-			url: 'https://api.maptiler.com/maps/{variant}/{z}/{x}/{y}{r}.png?key=RgmWMtEWGuEwgCRAgKzt',
+			url: 'https://api.maptiler.com/maps/topo/?key=K4a9knT0iEiGCzwTgiXu#1.0/0.00000/0.00000',
 			options: {
 				attribution:
 					'<a href="https://www.maptiler.com/copyright/" target="_blank">&copy; MapTiler</a> <a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>',

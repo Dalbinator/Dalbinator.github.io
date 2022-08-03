@@ -269,7 +269,7 @@
 					'<a href="https://www.maptiler.com/copyright/" target="_blank">&copy; MapTiler</a> <a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a>',
 				variant: 'streets',
 				ext: 'png',
-				key: '<insert your MapTiler Cloud API key here>',
+				key: 'K4a9knT0iEiGCzwTgiXu',
 				tileSize: 512,
 				zoomOffset: -1,
 				minZoom: 0,

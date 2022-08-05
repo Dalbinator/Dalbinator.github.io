@@ -8,7 +8,8 @@ Flight from IAD to CPH (7.5hrs)
 Flight from CPH to FAE (2 hrs)",3,Hidden,,Flight,48.719961,-36.185918,,,geojson/dtoc.geojson,color:black;weight:4
 DAY 1 - ARRIVAL,,,,"<p align:""center"">Vágar Airport to Kollafjørður to Saksun</P>",11,Hidden,,Vágar Airport,62.16037174,-7.109527588,,,geojson/arrival.geojson,color:black;weight:3
 Lunch in Saksun,/img/LunchSaksun.jpg,,,Lunch in Saksun,17,Hidden,green-dark,Saksun,62.241611,-7.160276,,,,
-DAY 2 - HIKE FROM TJØRNUVIK,/img/1.png,,,,13,Hidden,green-dark,Tjørnuvík,62.27439226,-7.183170319,,,geojson/tjornuvik.geojson,color:black;weight:3
+"DAY 2 - HIKE FROM TJØRNUVIK
+<p>This was a really good hike as an introduction to the Faroe Islands. It has a very steep start from Tjørnuvik but because of the quick ascent you get a beautiful view of the town and it's beach. blah blah blah</p>",/img/1.png,,,,13,Hidden,green-dark,Tjørnuvík,62.27439226,-7.183170319,,,geojson/tjornuvik.geojson,color:black;weight:3
 ,/img/2.png,,,,13,Plain,green-dark,,62.2847727,-7.160425186,,,geojson/tjornuvik.geojson,color:black;weight:3
 ,/img/3.png,,,,13,Plain,green-dark,,62.25866505,-7.18583107,,,geojson/tjornuvik.geojson,color:black;weight:3
 ,/img/4.png,,,,13,Plain,green-dark,,62.25987359,-7.185938358,,,geojson/tjornuvik.geojson,color:black;weight:3

@@ -5,7 +5,7 @@ Storymap Subtitle,<small>Scroll down <i class='fa fa-chevron-down'></i></small>,
 Storymap Logo,,Path to a logo image
 Google Analytics Tracking ID,,Sample format: UA-5488840-29
 Map Settings,,"For help, see tutorial in HandsOnDataViz.org"
-Basemap Tiles,MapTiler,Drop-down menu for background basemap tiles
+Basemap Tiles,OpenTopoMap,Drop-down menu for background basemap tiles
 Zoom Controls,bottomright,
 Narrative Background Color,,
 Narrative Text Color,,

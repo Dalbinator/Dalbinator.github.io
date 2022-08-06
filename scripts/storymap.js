@@ -92,7 +92,7 @@ $(window).on('load', function() {
   function initMap(options, chapters) {
     createDocumentSettings(options);
 
-    var chapterContainerMargin = 70;
+    var chapterContainerMargin = 10;
 
     document.title = getSetting('_mapTitle');
     $('#header').append('<h1>' + (getSetting('_mapTitle') || '') + '</h1>');

@@ -127,10 +127,10 @@ $(window).on('load', function() {
 
           /*comment to remove active maker color
           if (i == k) {
-            /* Adds marker-active class, which is orange, to marker k */
+            /* Adds marker-active class, which is orange, to marker k 
             markers[k]._icon.className += ' marker-active';
           } 
-          */
+          */ 
         }
       }
     }

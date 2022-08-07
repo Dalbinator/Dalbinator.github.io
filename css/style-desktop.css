@@ -22,10 +22,10 @@
   }
 
   #mapTilerLogo {
-    position:absolute;
-    left:50px;
-    bottom:10px;
-    z-index:999;
+    position:absolute !important; 
+    left:50px !important;
+    bottom:10px !important;
+    z-index:999 !important;
   }
 
   .leaflet-control-attribution {

@@ -81,13 +81,29 @@ $(window).on('load', function() {
 
   /**
    * Loads the basemap and adds it to the map
-   */
+   
   function addBaseMap() {
     var basemap = trySetting('_tileProvider', 'Stamen.TonerLite');
     L.tileLayer.provider(basemap, {
       maxZoom: 18
     }).addTo(map);
   }
+  */
+
+  /**
+   * Loads the basemap and adds it to the map combo platter*/
+   
+  function addBaseMap() {
+    var basemap = 'https://tile.thunderforest.com/cycle/{z}/{x}/{y}.png?apikey=94df2c1a3f5143e9a142ca9523a8c3ca';
+    L.tileLayer.provider(basemap, {
+      maxZoom: 18
+    }).addTo(map);
+  }
+/*
+  var tileUrl = 'https://tile.thunderforest.com/cycle/{z}/{x}/{y}.png?apikey=94df2c1a3f5143e9a142ca9523a8c3ca',
+layer = new L.TileLayer(tileUrl, {maxZoom: 18});
+*/
+
 
   function initMap(options, chapters) {
     createDocumentSettings(options);

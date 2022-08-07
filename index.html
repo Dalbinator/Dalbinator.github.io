@@ -16,10 +16,15 @@
     integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
     crossorigin=""></script>
 
-  <!-- Load Leaflet basemap providers-->
+  <!-- Load Leaflet basemap providers
   <script src="https://unpkg.com/leaflet-providers@1.10.2/leaflet-providers.js"></script>
- 	  
-	 
+ 	  -->
+    <script>
+       // create a new tile layer
+     var tileUrl = 'https://tile.thunderforest.com/cycle/{z}/{x}/{y}.png?apikey=94df2c1a3f5143e9a142ca9523a8c3ca',
+     layer = new L.TileLayer(tileUrl, {maxZoom: 18});
+    </script>
+    
 	  
   <!-- Load jQuery  -->
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>

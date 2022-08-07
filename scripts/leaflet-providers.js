@@ -123,6 +123,7 @@
 				}
 			}
 		},
+		
 		OpenSeaMap: {
 			url: 'https://tiles.openseamap.org/seamark/{z}/{x}/{y}.png',
 			options: {

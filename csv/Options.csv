@@ -16,6 +16,6 @@ Pixels After Final Chapter,600,In pixels. At least 100
 Enable Lightbox for Images,yes,yes or no
 Credits,,"For help, see tutorial in HandsOnDataViz.org"
 Author Name,,"Appears in map credits as ""View data by..."" (or leave blank)"
-Author Email or Website,"<a href=""https://github.com/Dalbinator/Dalbinator.github.io"">Dalbinator</a> | <a href=""https://www.maptiler.com/copyright/"" target=""_blank"">© MapTiler</a> <a href=""https://www.openstreetmap.org/copyright"" target=""_blank"">© OpenStreetMap Contributors</a>",Create link in Author Name by inserting your email or web address (or leave blank)
+Author Email or Website,"<p><a href=""https://github.com/Dalbinator/Dalbinator.github.io"">Dalbinator</a> | <a href=""https://www.maptiler.com/copyright"" target=""_blank"">© MapTiler</a> <a href=""https://www.openstreetmap.org/copyright"" target=""_blank"">© OpenStreetMap Contributors</a></p>",Create link in Author Name by inserting your email or web address (or leave blank)
 Author GitHub Repo Link,,"Insert your code repo URL to appear as link in ""View code..."" (or leave blank)"
 Code Credit,,"Appears in credits as ""...code by..."" (or leave blank)"

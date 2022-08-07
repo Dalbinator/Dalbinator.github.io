@@ -21,6 +21,13 @@
     top: 0;
   }
 
+  #mapTilerLogo {
+    position:absolute;
+    left:50px;
+    bottom:10px;
+    z-index:999;
+  }
+
   .leaflet-control-attribution {
     visibility: visible;
   }

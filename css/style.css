@@ -160,7 +160,7 @@ a.source:visited {
   visibility: hidden;
 }
 
-.leaflet-marker-icon, .marker-active {
+.leaflet-marker-icon, .extra-marker-shadow  {
   visibility: hidden;
 }
 

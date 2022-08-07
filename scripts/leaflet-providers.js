@@ -77,7 +77,7 @@
 
 	L.TileLayer.Provider.providers = {
 		OpenCycle: {
-			url: 'https://{s}.tile.thunderforest.com/cycle/{z}/{x}/{y}.png?apikey=94df2c1a3f5143e9a142ca9523a8c3ca',
+			url: 'https://tile.thunderforest.com/cycle/{z}/{x}/{y}.png?apikey=94df2c1a3f5143e9a142ca9523a8c3ca',
 			options: {
 				maxZoom: 18,
 				attribution: 'thank you'

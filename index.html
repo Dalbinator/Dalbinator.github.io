@@ -19,11 +19,7 @@
   <!-- Load Leaflet basemap providers
   <script src="https://unpkg.com/leaflet-providers@1.10.2/leaflet-providers.js"></script>
  	  -->
-    <script>
-       // create a new tile layer
-     var tileUrl = 'https://tile.thunderforest.com/cycle/{z}/{x}/{y}.png?apikey=94df2c1a3f5143e9a142ca9523a8c3ca',
-     layer = new L.TileLayer(tileUrl, {maxZoom: 18});
-    </script>
+    
     
 	  
   <!-- Load jQuery  -->
@@ -62,17 +58,23 @@
   
   <div id="map"></div>
   <!--
-  <script type="text/javascript">
-    // Create the Leaflet map with a generic start point josh's attempt
-	  var map = L.map('map').setView([61.8926, -6.9118],9);
-	  L.tileLayer('https://tile.thunderforest.com/landscape/{z}/{x}/{y}.png?apikey=94df2c1a3f5143e9a142ca9523a8c3ca', {
-	      maxZoom: 19,
-	      attribution: '© OpenStreetMap'
-	  }).addTo(map)
+  <script>
+    // initialize the map on the "map" div with a given center and zoom
+var map = new L.Map('map', {
+  center: new L.LatLng(51.46, -0.205),
+  zoom: 15
+});
+
+// create a new tile layer
+var tileUrl = 'https://tile.thunderforest.com/cycle/{z}/{x}/{y}.png?apikey=<insert-your-apikey-here>',
+layer = new L.TileLayer(tileUrl, {maxZoom: 18});
+
+// add the layer to the map
+map.addLayer(layer);
   </script>
     -->
 	
- 
+ <!--
   <script type="text/javascript">
     // Create the Leaflet map with a generic start point
     var map = L.map('map', {
@@ -83,7 +85,7 @@
       tap: false
     });
   </script>
- 
+ -->
 
   <script type="text/javascript" src="google-doc-url.js"></script>
   <script type="text/javascript" src="markers/leaflet.extra-markers.min.js"></script>

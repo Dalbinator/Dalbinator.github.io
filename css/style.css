@@ -160,9 +160,10 @@ a.source:visited {
   visibility: hidden;
 }
 
-.leaflet-marker-icon {
-  opacity: 0.15;
+.leaflet-marker-icon, .marker-active {
+  visibility: hidden;
 }
+
 
 /*added to hide a thing*/
 .leaflet-left .leaflet-control {

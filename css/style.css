@@ -48,6 +48,7 @@ body {
   z-index: 80;
   background-color: #c8cad2 !important;
   border-bottom-right-radius: 30px;
+  border-top-right-radius: 30px;
 }
 
 #contents {

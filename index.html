@@ -4,18 +4,24 @@
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta name="viewport" content="initial-scale=1, maximum-scale=1,user-scalable=no"/>
+
+  <script src="https://cesium.com/downloads/cesiumjs/releases/1.90/Build/Cesium/Cesium.js"></script>
+    <style>
+      @import url(https://cesium.com/downloads/cesiumjs/releases/1.90/Build/Cesium/Widgets/widgets.css);
+      #cesiumContainer {position: absolute; top: 0; right: 0; bottom: 0; left: 0;}
+    </style>
 	  
   <link rel="icon" type="image/png" href="./favicon.png">
   <title>Leaflet Storymaps with Google Sheets Template</title>
 
-  <!-- Load Leaflet CSS and JS this is the original file-->
+  <!-- Load Leaflet CSS and JS this is the original file
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
     integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
     crossorigin=""/>
   <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
     integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
     crossorigin=""></script>
-
+-->
   <!-- Load Leaflet basemap providers
   <script src="https://unpkg.com/leaflet-providers@1.10.2/leaflet-providers.js"></script>
  	  -->
@@ -56,7 +62,41 @@
 
   <div class="loader">Loading...</div>
   
+
+  <div id="cesiumContainer">
+    <a href="https://www.maptiler.com" style="position:absolute;right:10px;bottom:10px;z-index:999;"><img src="https://api.maptiler.com/resources/logo.svg" alt="MapTiler logo"></a>
+  </div>
+  <script>
+  var viewer = new Cesium.Viewer('cesiumContainer', {
+    animation: false,
+    baseLayerPicker: false,
+    navigationHelpButton: false,
+    sceneModePicker: false,
+    homeButton: false,
+    geocoder: false,
+    fullscreenButton: false,
+    imageryProvider: new Cesium.UrlTemplateImageryProvider({
+      url: 'https://api.maptiler.com/tiles/satellite/{z}/{x}/{y}.jpg?key=K4a9knT0iEiGCzwTgiXu',
+      minimumLevel: 0,
+      maximumLevel: 20,
+      credit: new Cesium.Credit("\u003ca href=\"https://www.maptiler.com/copyright/\" target=\"_blank\"\u003e\u0026copy; MapTiler\u003c/a\u003e \u003ca href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\"\u003e\u0026copy; OpenStreetMap contributors\u003c/a\u003e", true)
+    }),
+    timeline: false,
+    terrainProvider: new Cesium.CesiumTerrainProvider({
+      url: 'https://api.maptiler.com/tiles/terrain-quantized-mesh-v2/?key=K4a9knT0iEiGCzwTgiXu',
+      credit: new Cesium.Credit("\u003ca href=\"https://www.maptiler.com/copyright/\" target=\"_blank\"\u003e\u0026copy;MapTiler\u003c/a\u003e \u003ca href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\"\u003e\u0026copy; OpenStreetMap contributors\u003c/a\u003e", true),
+      requestVertexNormals: true
+    })
+  });
+  viewer.camera.setView({
+    destination: Cesium.Cartesian3.fromDegrees(8.67, 46.72, 4300),
+    orientation: {
+      pitch: Cesium.Math.toRadians(-20)
+    }
+  });
+  </script>
   
+  <!-- comment out for cesium to line 89
   <div id="map">
     <a id="mapTilerLogo" href="https://www.maptiler.com" style="position:absolute;left:5px;bottom:5px;z-index:999;"><img src="https://api.maptiler.com/resources/logo.svg" alt="MapTiler logo"></a>
   </div>
@@ -80,7 +120,7 @@ layer = new L.TileLayer(tileUrl, {maxZoom: 18});
 map.addLayer(layer);
 */
 </script>
-
+-->
 	
  <!--
   <script type="text/javascript">

@@ -9,7 +9,7 @@ body {
   height: 200px;
   width: 100vw;
   position: absolute;
-  border-bottom: 3px solid orange;
+  border-bottom: 1px solid #353535;
   top: 0;
   left: 0;
 }
@@ -73,7 +73,7 @@ body {
 #title {
   position: absolute;
   left: 0;
-  top: 203px;
+  top: 201px;
   background-color: #b1bfae!important;
   /*background-color: #778899;*/
   width: 100vw;

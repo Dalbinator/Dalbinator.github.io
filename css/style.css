@@ -47,8 +47,6 @@ body {
   height: calc(100vh - 203px);
   z-index: 80;
   background-color: #c8cad2 !important;
-  border-bottom-right-radius: 30px;
-  border-top-right-radius: 30px;
 }
 
 #contents {
@@ -87,7 +85,6 @@ body {
   text-align: center;
   border-bottom-right-radius: 30px;
   border-bottom-left-radius: 30px;
-  border-top-right-radius: 30px;
 }
 
 .chapter-container {

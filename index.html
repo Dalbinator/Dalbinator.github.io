@@ -67,7 +67,7 @@
     <a href="https://www.maptiler.com" style="position:absolute;right:10px;bottom:10px;z-index:999;"><img src="https://api.maptiler.com/resources/logo.svg" alt="MapTiler logo"></a>
   </div>
   <script>
-  var viewer = new Cesium.Viewer('cesiumContainer', {
+  var viewer = L.Viewer('cesiumContainer', {
     animation: false,
     baseLayerPicker: false,
     navigationHelpButton: false,
@@ -75,16 +75,16 @@
     homeButton: false,
     geocoder: false,
     fullscreenButton: false,
-    imageryProvider: new Cesium.UrlTemplateImageryProvider({
+    imageryProvider: L.UrlTemplateImageryProvider({
       url: 'https://api.maptiler.com/tiles/satellite/{z}/{x}/{y}.jpg?key=K4a9knT0iEiGCzwTgiXu',
       minimumLevel: 0,
       maximumLevel: 20,
-      credit: new Cesium.Credit("\u003ca href=\"https://www.maptiler.com/copyright/\" target=\"_blank\"\u003e\u0026copy; MapTiler\u003c/a\u003e \u003ca href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\"\u003e\u0026copy; OpenStreetMap contributors\u003c/a\u003e", true)
+      credit: L.Credit("\u003ca href=\"https://www.maptiler.com/copyright/\" target=\"_blank\"\u003e\u0026copy; MapTiler\u003c/a\u003e \u003ca href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\"\u003e\u0026copy; OpenStreetMap contributors\u003c/a\u003e", true)
     }),
     timeline: false,
-    terrainProvider: new Cesium.CesiumTerrainProvider({
+    terrainProvider: L.CesiumTerrainProvider({
       url: 'https://api.maptiler.com/tiles/terrain-quantized-mesh-v2/?key=K4a9knT0iEiGCzwTgiXu',
-      credit: new Cesium.Credit("\u003ca href=\"https://www.maptiler.com/copyright/\" target=\"_blank\"\u003e\u0026copy;MapTiler\u003c/a\u003e \u003ca href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\"\u003e\u0026copy; OpenStreetMap contributors\u003c/a\u003e", true),
+      credit: L.Credit("\u003ca href=\"https://www.maptiler.com/copyright/\" target=\"_blank\"\u003e\u0026copy;MapTiler\u003c/a\u003e \u003ca href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\"\u003e\u0026copy; OpenStreetMap contributors\u003c/a\u003e", true),
       requestVertexNormals: true
     })
   });

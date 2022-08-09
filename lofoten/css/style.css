@@ -29,14 +29,13 @@ body {
   float: left;
   flex: 200px;
   padding: 2px;
-
-
-
 }
+
+
 /*single column on mobile*/
 @media screen and (max-width: 700px) {
   .col {
-    flex:300px !important;
+    flex:100%;
   }
 }
  

@@ -1,48 +1,37 @@
 body {
-    background-color:dimgrey
+    background-color:dimgrey;
+    margin: 0;
 }
 
 img {
+    width: 80%;
     margin-right:auto;
     margin-left:auto;
-    margin-top: 30px;
-    width: 80%;
-    object-fit:cover;
-    display:block;
-    height: 525px;
 }
 
-/*parallax maybe*/
-.wrapper {
-    height: 100vh;
-    overflow-x: hidden;
-    overflow-y: auto;
-    perspective: 2px;
-  }
-  .section { 
-    position: relative;
-    height: 100vh;
+#header-image {
+    width:100%;
+    max-height:500px;
+    margin:auto;
+    display:flex;
+    margin-top:0px;
+    object-fit: cover;
+}
+
+.row {
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.column {
+    float:left;
+    width: 50%;
+    background-color: black;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.img-link {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-    text-shadow: 0 0 5px #000;
-  }
-  .parallax::after {
-    content: " ";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    transform: translateZ(-1px) scale(1.5);
-    background-size: 100%;
-    z-index: -1;
-  }
-  .static {
-    background: red;
-  }
-  .bg1::after {
-    background-image: url('/img/Background.jpg');
-  }
-  
+    margin:auto
+}

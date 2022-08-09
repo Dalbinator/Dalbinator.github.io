@@ -36,6 +36,7 @@ body {
 @media screen and (max-width: 500px) {
   .col {
     flex: 100%;
+    transition: flex 500ms;
   }
 }
  

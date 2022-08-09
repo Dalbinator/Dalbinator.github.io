@@ -24,18 +24,18 @@ body {
 }
 
 
-
+@media screen and (min-width: 501px) {
 .col {
   float: left;
   flex: 200px;
   padding: 2px;
+  }
 }
 
-
 /*single column on mobile*/
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 500px) {
   .col {
-    flex:100%;
+    flex: 100%;
   }
 }
  

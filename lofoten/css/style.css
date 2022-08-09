@@ -19,17 +19,25 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  max-width:;
+  flex-wrap:wrap;
+  
 }
 
 
 
 .col {
   float: left;
-  width: 25%;
+  flex: 200px;
   padding: 2px;
-  
+
 }
+/*single column on mobile*/
+@media screen and (max-width: 500px) {
+  .col {
+    flex:300px;
+  }
+}
+ 
 
 .modal {
   display: none;
@@ -75,6 +83,8 @@ body {
 
 img.preview, img.modal-preview {
   opacity: 0.6;
+  max-height: 100px;
+  object-fit: cover;
 }
 
 img.active,

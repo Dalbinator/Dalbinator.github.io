@@ -1,56 +1,64 @@
 <!DOCTYPE html>
-<html>
+<html
 <head>
   <head><meta charset="UTF-8"></head>
   <link href="/lofoten/css/style.css" rel="stylesheet"/>
   <script src="/lofoten/script/lightbox.js"></script>
 </head>
 <body>
-  <!-- Header -->
-<div class="header">
-  <h1>Responsive Image Grid</h1>
-  <p>Resize the browser window to see the responsive effect.</p>
-</div>
-
-<script type="text/javascript" src="/lofoten/script/lightbox.js"></script>
-
-<!-- Photo Grid -->
-<div class="row"> 
-  <div class="column">
-    <img src="/lofoten/img/Lofoten-1.jpg" onclick="openLightbox();toSlide(1)" class="hover-shadow preview" style="width:100%">
-    <img src="/lofoten/img/Lofoten-3.jpg" style="width:100%">
-    <img src="/w3images/falls2.jpg" style="width:100%">
-    <img src="/w3images/paris.jpg" style="width:100%">
-    <img src="/w3images/nature.jpg" style="width:100%">
-    <img src="/w3images/mist.jpg" style="width:100%">
-    <img src="/w3images/paris.jpg" style="width:100%">
+  <h2>Headd space</h2>
+  <div class="row">
+    <div class="col">
+       <img src="/lofoten/img/Lofoten-1.jpg" onclick="openLightbox();toSlide(1)" class="hover-shadow preview" alt="Toy car on the road." />
+    </div>
+    <div class="col">
+       <img src="/lofoten/img/Lofoten-2.jpg" onclick="openLightbox();toSlide(2)" class="hover-shadow preview" alt="Toy car exploring offroad." />
+    </div>
+    <div class="col">
+       <img src="/lofoten/img/Lofoten-3.jpg" onclick="openLightbox();toSlide(3)" class="hover-shadow preview" alt="Toy car in the city" />
+    </div>
+    <div class="col">
+      <img src="/lofoten/img/Lofoten-1.jpg" onclick="openLightbox();toSlide(1)" class="hover-shadow preview" alt="Toy car on the road." />
+   </div>
+   <div class="col">
+      <img src="/lofoten/img/Lofoten-2.jpg" onclick="openLightbox();toSlide(2)" class="hover-shadow preview" alt="Toy car exploring offroad." />
+   </div>
+   <div class="col">
+      <img src="/lofoten/img/Lofoten-3.jpg" onclick="openLightbox();toSlide(3)" class="hover-shadow preview" alt="Toy car in the city" />
+   </div>
   </div>
-  <div class="column">
-    <img src="/lofoten/img/Lofoten-1.jpg" style="width:100%">
-    <img src="/lofoten/img/Lofoten-4.jpg" style="width:100%">
-    <img src="/w3images/wedding.jpg" style="width:100%">
-    <img src="/w3images/mountainskies.jpg" style="width:100%">
-    <img src="/w3images/rocks.jpg" style="width:100%">
-    <img src="/w3images/underwater.jpg" style="width:100%">
-  </div>  
-  <div class="column">
-    <img src="/lofoten/img/Lofoten-2.jpg" style="width:100%">
-    <img src="/lofoten/img/Lofoten-1.jpg" style="width:100%">
-    <img src="/w3images/falls2.jpg" style="width:100%">
-    <img src="/w3images/paris.jpg" style="width:100%">
-    <img src="/w3images/nature.jpg" style="width:100%">
-    <img src="/w3images/mist.jpg" style="width:100%">
-    <img src="/w3images/paris.jpg" style="width:100%">
+  
+  <div id="Lightbox" class="modal">
+  
+    <span class="close pointer" onclick="closeLightbox()">&times;</span>
+    <div class="modal-content">
+      <div class="slide">
+        <img src="/lofoten/img/Lofoten-1.jpg" class="image-slide" alt="Toy car on the road." />
+      </div>
+      <div class="slide">
+        <img src="/lofoten/img/Lofoten-2.jpg" class="image-slide" alt="Toy car exploring offroad." />
+      </div>    
+      <div class="slide">
+        <img src="/lofoten/img/Lofoten-3.jpg" class="image-slide" alt="Toy car in the city." />
+      </div>
+    
+      <a class="previous" onclick="changeSlide(-1)">&#10094;</a>
+      <a class="next" onclick="changeSlide(1)">&#10095;</a>
+      <!-- 
+      <div class="dots">
+        <div class="col">
+          <img src="/lofoten/img/Lofoten-1.jpg" class="modal-preview hover-shadow" onclick="toSlide(1)" alt="Toy car on the road." />
+        </div>
+        <div class="col">
+          <img src="https://static.pexels.com/photos/574521/pexels-photo-574521.jpeg" class="modal-preview hover-shadow" onclick="toSlide(2)" alt="Toy car exploring offroad." />
+        </div>
+        <div class="col">
+          <img src="https://static.pexels.com/photos/386009/pexels-photo-386009.jpeg" class="modal-preview hover-shadow" onclick="toSlide(3)" alt="Toy car in the city" />
+        </div>
+      </div>
+      -->
+    </div> 
   </div>
-  <div class="column">
-    <img src="/lofoten/img/Lofoten-2.jpg" style="width:100%">
-    <img src="/lofoten/img/Lofoten-4.jpg" style="width:100%">
-    <img src="/w3images/wedding.jpg" style="width:100%">
-    <img src="/w3images/mountainskies.jpg" style="width:100%">
-    <img src="/w3images/rocks.jpg" style="width:100%">
-    <img src="/w3images/underwater.jpg" style="width:100%">
-  </div>
-</div>
 
 </body>
 </html> 

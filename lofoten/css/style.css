@@ -35,8 +35,7 @@ body {
 /*single column on mobile*/
 @media screen and (max-width: 500px) {
   .col {
-    flex: 100vw;
-    
+    Width: 100vw;    
   }
 }
  

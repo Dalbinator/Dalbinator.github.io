@@ -127,7 +127,7 @@ img.hover-shadow {
 }
 
 .close {
-  color: white;
+  color: rgba(131, 131, 131, 0.524);
   position: absolute;
   top: 10px;
   right: 25px;
@@ -145,12 +145,13 @@ img.hover-shadow {
 .previous,
 .next {
   cursor: pointer;
-  position: absolute;
+  position: fixed;
   top: 50%;
   width: auto;
-  padding: 16px;
+  padding-right: auto;
+  padding-left: auto;
   margin-top: -50px;
-  color: white;
+  color: rgba(131, 131, 131, 0.524);
   font-weight: bold;
   font-size: 20px;
   transition: 0.6s ease;
@@ -162,7 +163,9 @@ img.hover-shadow {
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
+  padding-right: 100px;
 }
+
 
 .previous:hover,
 .next:hover {

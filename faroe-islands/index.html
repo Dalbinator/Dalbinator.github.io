@@ -99,7 +99,17 @@ map.addLayer(layer);
   <script type="text/javascript" src="markers/leaflet.extra-markers.min.js"></script>
   <script type="text/javascript" src="scripts/constants.js"></script>
   <script type="text/javascript" src="scripts/jquery.csv.js"></script>
-  <script type="text/javascript" src="scripts/storymap.js"></script>
+<!--attempt to load different storymaps base on screen size-->
+<script>
+  if (screen.width > 700) {
+    loadScript("scripts/storymap.js");  
+  } else{
+    loadScript("scripts/storymapMobile.js"); 
+    }
+</script>
 
+  <!--original storymap loader
+  <script type="text/javascript" src="scripts/storymap.js"></script>
+-->
 </body>
 </html>

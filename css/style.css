@@ -1,12 +1,17 @@
 body {
     background-color:dimgrey;
     margin: 0;
+    font-family:sans-serif;
 }
 
 img {
     width: 80%;
     margin-right:auto;
     margin-left:auto;
+}
+
+a:link {
+    text-decoration: none;
 }
 
 #header-image {
@@ -29,9 +34,22 @@ img {
     background-color: black;
     padding-top: 30px;
     padding-bottom: 30px;
+
+    position: relative;
+    text-align: center;
+}
+.overlayText {
+    position: relative;
+    font-size:  24px;
+    top: -50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:rgb(228, 228, 228);
+    text-shadow: 1px 1px rgb(23, 23, 23);
 }
 
 .img-link {
     display: flex;
     margin:auto
+    
 }

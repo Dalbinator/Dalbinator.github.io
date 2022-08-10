@@ -89,10 +89,14 @@ body {
 
 img.preview, img.modal-preview {
   opacity: 1;
-  max-height: 100px;
-  object-fit: cover;
+  max-height: 200px;
+  object-fit:scale-down;
+}
+.preview {
+	flex:auto
 }
 
+@media screen and (min-width: 501px) {
 img.active,
 .preview:hover,
 .modal-preview:hover {
@@ -120,7 +124,7 @@ img.hover-shadow {
  transform: scale(1.1) rotate(2deg);
 }
 /*end grow rotate*/
-
+}
 
 .close {
   color: white;

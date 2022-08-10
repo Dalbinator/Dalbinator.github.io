@@ -24,20 +24,15 @@ body {
 }
 
 
-@media screen and (min-width: 701px) {
+
 .col {
   float: left;
   flex: 200px;
   padding: 2px;
   }
-}
 
-/*single column on mobile*/
-@media screen and (max-width: 700px) {
-  .col {
-    Width: 50vw;    
-  }
-}
+
+
  
 
 .modal {
@@ -96,7 +91,7 @@ img.preview, img.modal-preview {
 	flex:auto
 }
 
-@media screen and (min-width: 501px) {
+
 img.active,
 .preview:hover,
 .modal-preview:hover {
@@ -109,21 +104,7 @@ img.hover-shadow {
 
 .hover-shadow:hover {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
- /* Grow Rotate */
- display: inline-block;
- vertical-align: middle;
- -webkit-transform: perspective(1px) translateZ(0);
- transform: perspective(1px) translateZ(0);
- box-shadow: 0 0 1px rgba(0, 0, 0, 0);
- -webkit-transition-duration: 0.3s;
- transition-duration: 0.3s;
- -webkit-transition-property: transform;
- transition-property: transform;
 
- -webkit-transform: scale(1.1) rotate(2deg);
- transform: scale(1.1) rotate(2deg);
-}
-/*end grow rotate*/
 }
 
 .close {

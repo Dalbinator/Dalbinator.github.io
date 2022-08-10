@@ -141,7 +141,9 @@ img.hover-shadow {
   text-decoration: none;
   cursor: pointer;
 }
-
+.previous {
+  left:20px
+}
 .previous,
 .next {
   cursor: pointer;
@@ -163,7 +165,7 @@ img.hover-shadow {
 .next {
   right: 0;
   border-radius: 3px 0 0 3px;
-  padding-right: 100px;
+  padding-right: 20px;
 }
 
 

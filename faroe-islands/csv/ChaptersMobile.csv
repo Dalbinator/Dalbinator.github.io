@@ -1,6 +1,6 @@
 Chapter,Media Link,Media Credit,Media Credit Link,Description,Zoom,Marker,Marker Color,Location,Latitude,Longitude,Overlay,Overlay Transparency,GeoJSON Overlay,GeoJSON Feature Properties
 ,/faroe-islands/img/flag.png,,,,7,Hidden,,Faroe Islands,61.8926,-6.9118,,,,
-MOBILE,,,,"<p align:""center"">8/14/2021- 8/15/2021</p>
+IAD to CPH to FAE,,,,"<p align:""center"">8/14/2021- 8/15/2021</p>
 Flight from IAD to CPH (7.5hrs)
 <br>
 3 hr layover
@@ -16,20 +16,32 @@ Lunch in Saksun,/faroe-islands/img/LunchSaksun.jpg,,,Lunch in Saksun,15,Hidden,g
 ,/faroe-islands/img/5.png,,,,13,Plain,green-dark,,62.27662835,-7.179136276,,,geojson/tjornuvik.geojson,color:black;weight:3
 "DAY 3 - TUESDAY
 <p>Middagsfjall</p>",/faroe-islands/img/Faroe Islands 2021 - 1 of 1 (2).png,,,8/17/2021,,,,,62.309722,-6.652316,,,,
-PUFFIN,,,,,,,,,,,,,,
-DAY 4 - WEDNESDAY,,,,8/18/2021,,,,,,,,,,
+,/faroe-islands/image/puffin.jpg,Puffin,,,,,,,,,,,,
+DAY 4 - WEDNESDAY KALLUR LIGHTHOUSE,,,,8/18/2021,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,
 "DAY 5 - THURSDAY
-<br>OLD POSTAL ROUTE TO GÁSADALUR",/faroe-islands/img/Faroe Islands 2021 - 1 of 1.png,The Iconic Waterfall of Gásadalur,,Thursday 8/19/2021,14,Hidden,,,62.09753696,-7.410793304,,,geojson/gasadalur.geojson,color:black;weight:3
-KOKS,,,,,,,,,,,,,,
+<br>OLD POSTAL ROUTE TO GÁSADALUR",/faroe-islands/img/gasadalur2.png,The Iconic Waterfall of Gásadalur,,Thursday 8/19/2021,14,Hidden,,,62.09753696,-7.410793304,,,geojson/gasadalur.geojson,color:black;weight:3
+,/faroe-islands/img/traffic.jpeg,,,,,,,,,,,,,
+KOKS,/faroe-islands/img/LandRover.jpeg,,,,,,,,,,,,,
+,/faroe-islands/img/Koks.jpeg,,,,,,,,,,,,,
 "DAY 6 - FRIDAY
 THE JOURNEY TO FUGLOY",,,,Friday 8/20/2021,13,,,,62.28038141,-6.405715942,,,geojson/fugloy.geojson,color:black;weight:3
 ,https://www.youtube.com/embed/tL4Q5zirXag,The Flight from Klaksvík to Kirkja,https://youtu.be/tL4Q5zirXag,,13,,,,62.28038141,-6.405715942,,,geojson/fugloy.geojson,color:black;weight:3
 ,,,,,,,,,,,,,,
 ,/faroe-islands/img/Clare on Ferry.png,Clare enjoying the calm waters after the rough open ocean.,,,,,,,,,,,,
-DAY 7 - SATURDAY,,,,Saturday 8/21/2021,,,,,,,,,,
+DAY 7 - SATURDAY,/faroe-islands/img/Summit.jpeg,,,"Saturday 8/21/2021
+Slættaratindur",,,,,,,,,,
 DAY 8 - SUNDAY,,,,Sunday 8/22/2021,,,,,,,,,,
-DAY 9 - MONDAY,/faroe-islands/media/Faroe Islands 2021 Flight.mov,test,,Monday 8/23/2021,,,,,,,,,,
-DAY 10 - TUESDAY,,,,Tuesday 8/24/2021,,,,,,,,,,
+DAY 9 - MONDAY,/faroe-islands/img/DomeHome.jpeg,,,"Monday 8/23/2021
+Final Day - ",,,,,,,,,,
+DAY 10 - TUESDAY,/faroe-islands/img/nightBike.jpeg,,,"Tuesday 8/24/2021
+Copenhagen",,,,,,,,,,
 DAY 11 - WEDNESDAY ,,,,Wednesday 8/25/201,,,,,,,,,,
 ,,,,"<a href=''https://dalbinator.github.io/lofoten"">Lofoten</a>",,,,,,,,,,
 ,,,,,,,,,,,,,,

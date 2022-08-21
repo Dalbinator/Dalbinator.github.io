@@ -2,7 +2,7 @@ Setting,Customize,Hints
 Storymap Info,,"For help, see tutorial in HandsOnDataViz.org"
 Storymap Title,The Faroe Islands,
 Storymap Subtitle,<small>Scroll down <i class='fa fa-chevron-down'></i></small>,"Add your subtitle, or delete that portion"
-Storymap Logo,,Path to a logo image
+Storymap Logo,<small>Scroll down <i class='fa fa-chevron-down'></i></small>,Path to a logo image
 Google Analytics Tracking ID,,Sample format: UA-5488840-29
 Map Settings,,"For help, see tutorial in HandsOnDataViz.org"
 Basemap Tiles,,Drop-down menu for background basemap tiles

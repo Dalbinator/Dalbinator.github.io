@@ -56,7 +56,10 @@ COPENHAGEN,,,,Bikes are everywhere in Copenhagen and so of course we rented some
 ,https://www.youtube.com/embed/WwJtUJjKgBk,,,,15,,,,55.671586,12.546688,,,,
 DAY 11 - HOME ,,,,"The original plan was to catch a bus back to the airport but after discovering the bike rentals we opted for the authentic Danish experience and rode bikes, bags strapped on, to the airport. ",13,,,,55.65115151,12.59428024,,,geojson/airportBikeRide.geojson,color:black;weight:4
 ,/faroe-islands/img/airportBike.jpeg,,,,,,,,,,,,geojson/airportBikeRide.geojson,color:black;weight:4
-,,,,,,,,,,,,,,
+,,,,"<video width=""400"" controls>
+  <source src=""/faroe-islands/img/copenhagenRoom.mp4"" type=""video/mp4"">
+  Your browser does not support HTML video.
+</video>",,,,,,,,,,
 ,,,,"
 <div class=""row""> 
  <div class=""column""> 

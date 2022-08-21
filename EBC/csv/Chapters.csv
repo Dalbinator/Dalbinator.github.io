@@ -9,10 +9,10 @@ Flight from CPH to FAE (2 hrs)",4,Plain,green-dark,Flight,48.719961,-36.185918,,
 DAY 1 - ARRIVAL,,,,"<p align:""center"">Vágar Airport to Kollafjørður to Saksun</P>",11,Plain,green-dark,Vágar Airport,62.16037174,-7.109527588,,,/faroe-islands/geojson/arrival.geojson,color:black;weight:3
 ,/faroe-islands/img/LunchSaksun.jpg,Lunch in Saksun,,,16,Plain,green-dark,Saksun,62.241611,-7.160276,,,,
 "DAY 2 - HIKE FROM TJØRNUVIK
-<p>This was a really good hike as an introduction to the Faroe Islands. It has a very steep start from Tjørnuvik but because of the quick ascent you get a beautiful view of the town and it's beach.</p>",/faroe-islands/img/1.png,,,,13,Plain,green-dark,Tjørnuvík,62.27439226,-7.183170319,,,geojson/tjornuvik.geojson,color:black;weight:3
-/faroe-islands/img/2.png,/faroe-islands/img/2.png,,,,13,Plain,green-dark,Tjørnuvík,62.27439226,-7.183170319,,,geojson/tjornuvik.geojson,color:black;weight:3
- ,/faroe-islands/img/4.png,Lunch break on the rocks,,,13,Plain,green-dark,Tjørnuvík,62.27439226,-7.183170319,,,geojson/tjornuvik.geojson,color:black;weight:3
- ,/faroe-islands/img/5.png,,,,13,Plain,green-dark,Tjørnuvík,62.27439226,-7.183170319,,,geojson/tjornuvik.geojson,color:black;weight:3
+<p>This was a really good hike as an introduction to the Faroe Islands. It has a very steep start from Tjørnuvik but because of the quick ascent you get a beautiful view of the town and it's beach.</p>",/faroe-islands/img/1.png,,,,13,Plain,green-dark,Tjørnuvík,62.28956247,-7.150382996,,,geojson/day1.geojson,color:black;weight:3
+/faroe-islands/img/2.png,/faroe-islands/img/2.png,,,,13,Plain,green-dark,Tjørnuvík,62.27886427,-7.178449631,,,geojson/day2.geojson,color:black;weight:3
+ ,/faroe-islands/img/4.png,Lunch break on the rocks,,,13,Plain,green-dark,Tjørnuvík,62.2701592,-7.181968689,,,geojson/day3.geojson,color:black;weight:3
+ ,/faroe-islands/img/5.png,,,,13,Plain,green-dark,Tjørnuvík,62.26017322,-7.180595398,,,,
 "DAY 3 - TUESDAY
 <p>Middagsfjall</p>",/faroe-islands/img/Faroe Islands 2021 - 1 of 1 (2).png,,,,16,Plain,green-dark,,62.30741759,-6.944088936,,,,
 ,/faroe-islands/img/puffin.jpg,We saw puffins for the first time!,,,16,Plain,green-dark,,62.32863045,-6.942694187,,,,

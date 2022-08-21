@@ -43,7 +43,7 @@ DAY 6 - THE JOURNEY TO FUGLOY,,,,"The Island of Fugloy is more remote than some 
 DAY 7 - SUMMIT,,,,"We hiked Slættaratindur, the highest peak in the Faroe Islands. It was a beautiful day at the base, but as we ascended we climbed into a thick cloud covering the peak.",13,,,,62.2969053,-7.013397217,,,,
 ,/faroe-islands/img/Summit.jpeg,,,,,,,,,,,,,
 DAY 8 - SUNDAY,,,,"We took a day off from hiking to explore a little more of the history of the island at the Faroe Islands National Museum in Tórshavn. There is so much to explore from the history of how the islands formed, to how they were settled and even a small cluster of buildings showing traditional building techniques and how people have lived there in the past. ",12,,,,62.02203,6.784775,,,,
-,/faroe-islands/img/journal.jpeg,Visited <a href='https://www.nlh.fo/en/rooms/klingran/' target='_blank'>The Nordic House Cultural Center</a>,,,13,,,,62.02203,6.784775,,,62.11901063,-7.096610069
+,/faroe-islands/img/journal.jpeg,,,Visited <a href='https://www.nlh.fo/en/rooms/klingran/' target='_blank'>The Nordic House Cultural Center</a>,13,,,,62.02203,6.784775,,,62.11901063,-7.096610069
 DAY 9 - FINAL HIKE,,,,For our final hike we went as far north as you can drive to hike Villingadalsfjall. Probably one of the most difficult hikes we did as there were many false peaks and everything was much father away than it appeared. A very appropriate send-off from the Islands. ,11,,,,62.379437,-6.559541,,,,
 ,/faroe-islands/img/lastHike.jpg,,,,13,,,,62.379437,-6.559541,,,,
 ,/faroe-islands/img/clarePainting.jpg,,,Clare took some time to paint and we took some photos of the Travel Watercolor Painting Kit that we had been developing. ,,,,,,,,,,
@@ -54,8 +54,8 @@ COPENHAGEN,,,,Bikes are everywhere in Copenhagen and so of course we rented some
 ,/faroe-islands/img/nightBike.jpeg,,,,15,,,,55.66922318,12.57496834,,,,
 ,,,,We booked a room at CityHub and were not dissapointed. We made sure to get up early in the morning to have a short session in the sauna. ,,,,,,,,,,
 ,https://www.youtube.com/embed/WwJtUJjKgBk,,,,15,,,,55.671586,12.546688,,,,
-DAY 11 - HOME ,,,,"The original plan was to catch a bus back to the airport but after discovering the bike rentals we opted for the authentic Danish experience and rode bikes, bags strapped on, to the airport. ",11,,,,55.65115151,12.59428024,,,geojson/airportBikeRide.geojson,color:black;weight:3
-,/faroe-islands/img/airportBike.jpeg,,,,,,,,,,,,,
+DAY 11 - HOME ,,,,"The original plan was to catch a bus back to the airport but after discovering the bike rentals we opted for the authentic Danish experience and rode bikes, bags strapped on, to the airport. ",13,,,,55.65115151,12.59428024,,,geojson/airportBikeRide.geojson,color:black;weight:4
+,/faroe-islands/img/airportBike.jpeg,,,,,,,,,,,,geojson/airportBikeRide.geojson,color:black;weight:4
 ,,,,,,,,,,,,,,
 ,,,,"
 <div class=""row""> 

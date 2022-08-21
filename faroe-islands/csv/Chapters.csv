@@ -37,7 +37,11 @@ KOKS,,,,"Most of our meals while traveling are homemade meals from local foods w
 ,/faroe-islands/img/Koks.jpeg,Koks.,,,16,,,,62.13649303,-7.022066116,,,,
 DAY 6 - THE JOURNEY TO FUGLOY,,,,"The Island of Fugloy is more remote than some and while there is a ferry, it often can't dock due to rough weather, so a helicopter flys daily to and from Fugloy for the dozen or so residents of the island to bring supplies or allow them to come and go more easily. The Danish government subsidizes the helicopter, this means non-residents can fly very cheaply to Fugloy. However, you're only allowed a one-way flight which means, after arriving in Kirkja you must travel to the other town, Hattarvik in order to catch the ferry back to the ""mainland"". Be sure to call the ferry to let them know you need a ride. ",11,,,,62.28038141,-6.405715942,,,geojson/fugloy.geojson,color:black;weight:3
 ,/faroe-islands/img/helicopter.jpg,Loading for our first helicopter flight.,,,,,,,,,,,,
-,https://www.youtube.com/embed/tL4Q5zirXag,Leg 1 of the Flight from Klaksvík to Kirkja,https://youtu.be/tL4Q5zirXag,"Hattarvik, where you board the ferry, faces the open ocean. This means the water can be quite rough and you'll have to jump on to the ferry as it rides the large waves.",11,,,,62.28038141,-6.405715942,,,geojson/fugloy.geojson,color:black;weight:3
+,,,,"<video width=""400"" controls>
+  <source src=""/faroe-islands/img/heloFlight.webm"" type=""video/webm"">
+  Your browser does not support HTML video.
+</video>",,,,,,,,,,
+,,,,"Hattarvik, where you board the ferry, faces the open ocean. This means the water can be quite rough and you'll have to jump on to the ferry as it rides the large waves.",11,,,,62.28038141,-6.405715942,,,geojson/fugloy.geojson,color:black;weight:3
 ,/faroe-islands/img/clareBoat.jpg,Ferry rides are a great way to get a unique look at the islands from the water.,,,11,,,,62.31262251,-6.348381042,,,,
 ,/faroe-islands/img/Clare on Ferry.png,Clare enjoying the calm waters after the rough open ocean.,,,11,,,,62.27766647,-6.482963562,,,,
 DAY 7 - SUMMIT,,,,"We hiked Slættaratindur, the highest peak in the Faroe Islands. It was a beautiful day at the base, but as we ascended we climbed into a thick cloud covering the peak.",13,,,,62.2969053,-7.013397217,,,,
@@ -53,13 +57,13 @@ COPENHAGEN,,,,Bikes are everywhere in Copenhagen and so of course we rented some
 ,/faroe-islands/img/bikes.jpeg,Single level bike storage is not enough here. ,,,,,,,,,,,,
 ,/faroe-islands/img/nightBike.jpeg,,,,15,,,,55.66922318,12.57496834,,,,
 ,,,,We booked a room at CityHub and were not dissapointed. We made sure to get up early in the morning to have a short session in the sauna. ,,,,,,,,,,
-,https://www.youtube.com/embed/WwJtUJjKgBk,,,,15,,,,55.671586,12.546688,,,,
-DAY 11 - HOME ,,,,"The original plan was to catch a bus back to the airport but after discovering the bike rentals we opted for the authentic Danish experience and rode bikes, bags strapped on, to the airport. ",13,,,,55.65115151,12.59428024,,,geojson/airportBikeRide.geojson,color:black;weight:4
-,/faroe-islands/img/airportBike.jpeg,,,,,,,,,,,,geojson/airportBikeRide.geojson,color:black;weight:4
 ,,,,"<video width=""400"" controls>
   <source src=""/faroe-islands/img/copenhagenRoom.mp4"" type=""video/mp4"">
   Your browser does not support HTML video.
-</video>",,,,,,,,,,
+</video>",15,,,,55.671586,12.546688,,,,
+DAY 11 - HOME ,,,,"The original plan was to catch a bus back to the airport but after discovering the bike rentals we opted for the authentic Danish experience and rode bikes, bags strapped on, to the airport. ",13,,,,55.65115151,12.59428024,,,geojson/airportBikeRide.geojson,color:black;weight:4
+,/faroe-islands/img/airportBike.jpeg,,,,,,,,,,,,geojson/airportBikeRide.geojson,color:black;weight:4
+,,,,,,,,,,,,,,
 ,,,,"
 <div class=""row""> 
  <div class=""column""> 

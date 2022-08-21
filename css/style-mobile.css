@@ -1,8 +1,8 @@
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 700px) {
     .overlayText {
         position: relative;
         font-size:  24px;
-        top: -50%;
+        top: -40%;
         left: 50%;
         transform: translate(-50%, -30% );
         color:rgb(228, 228, 228);

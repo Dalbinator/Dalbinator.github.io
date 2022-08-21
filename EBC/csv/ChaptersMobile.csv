@@ -1,0 +1,40 @@
+Chapter,Media Link,Media Credit,Media Credit Link,Description,Zoom,Marker,Marker Color,Location,Latitude,Longitude,Overlay,Overlay Transparency,GeoJSON Overlay,GeoJSON Feature Properties
+,/faroe-islands/img/flag.png,,,,9,Hidden,,Faroe Islands,61.8926,-6.9118,,,,
+IAD to CPH to FAE,,,,"<p align:""center"">8/14/2021- 8/15/2021</p>
+Flight from IAD to CPH (7.5hrs)
+<br>
+3 hr layover
+<br>
+Flight from CPH to FAE (2 hrs)",4,Hidden,,Flight,48.719961,-36.185918,,,geojson/dtoc.geojson,color:black;weight:5
+DAY 1 - ARRIVAL,,,,"<p align:""center"">Vágar Airport to Kollafjørður to Saksun</P>",11,Hidden,,Vágar Airport,62.16037174,-7.109527588,,,geojson/arrival.geojson,color:black;weight:3
+,/faroe-islands/img/LunchSaksun.jpg,Lunch in Saksun,,,16,Hidden,green-dark,Saksun,62.241611,-7.160276,,,,
+"DAY 2 - HIKE FROM TJØRNUVIK
+<p>This was a really good hike as an introduction to the Faroe Islands. It has a very steep start from Tjørnuvik but because of the quick ascent you get a beautiful view of the town and it's beach.</p>",/faroe-islands/img/1.png,,,,13,Hidden,green-dark,Tjørnuvík,62.27439226,-7.183170319,,,geojson/tjornuvik.geojson,color:black;weight:3
+,/faroe-islands/img/2.png,,,,,Plain,green-dark,,,,,,geojson/tjornuvik.geojson,color:black;weight:3
+,/faroe-islands/img/4.png,Lunch break on the rocks,,,,Plain,green-dark,,,,,,geojson/tjornuvik.geojson,color:black;weight:3
+,/faroe-islands/img/5.png,,,,,Plain,green-dark,,,,,,geojson/tjornuvik.geojson,color:black;weight:3
+"DAY 3 - TUESDAY
+<p>Middagsfjall</p>",/faroe-islands/img/Faroe Islands 2021 - 1 of 1 (2).png,,,,16,,,,62.30741759,-6.944088936,,,,
+,/faroe-islands/img/puffin.jpg,We saw puffins for the first time!,,,16,,,,62.32863045,-6.942694187,,,,
+DAY 4 - WEDNESDAY KALLUR LIGHTHOUSE,/faroe-islands/img/lighthouse.jpg,,,8/18/2021,16,,,,62.37016545,-6.811587811,,,,
+,/faroe-islands/img/lighthousePoint.jpg,,,,,,,,,,,,,
+"DAY 5 - THURSDAY
+OLD POSTAL ROUTE TO GÁSADALUR",/faroe-islands/img/gasadalur2.jpeg,The Iconic Waterfall of Gásadalur,,Thursday 8/19/2021,14,Hidden,,,62.09753696,-7.410793304,,,geojson/gasadalur.geojson,color:black;weight:3
+,/faroe-islands/img/traffic.jpeg,A traffic jam in the Faroe Islands,,,,,,,,,,,,
+KOKS,/faroe-islands/img/LandRover.jpeg,,,,,,,,,,,,,
+,/faroe-islands/img/Apps.jpeg,,,,,,,,,,,,,
+,/faroe-islands/img/Koks.jpeg,,,,16,,,,62.13649303,-7.022066116,,,,
+"DAY 6 - FRIDAY
+THE JOURNEY TO FUGLOY",/faroe-islands/img/helicopter.jpg,,,Friday 8/20/2021,13,,,,62.28038141,-6.405715942,,,geojson/fugloy.geojson,color:black;weight:3
+,https://www.youtube.com/embed/tL4Q5zirXag,The Flight from Klaksvík to Kirkja,https://youtu.be/tL4Q5zirXag,,13,,,,62.28038141,-6.405715942,,,geojson/fugloy.geojson,color:black;weight:3
+,/faroe-islands/img/clareBoat.jpg,,,,16,,,,62.31262251,-6.348381042,,,,
+,/faroe-islands/img/Clare on Ferry.png,Clare enjoying the calm waters after the rough open ocean.,,,16,,,,62.27766647,-6.482963562,,,,
+DAY 7 - SATURDAY,/faroe-islands/img/Summit.jpeg,,,"Saturday 8/21/2021
+We hiked Slættaratindur, the highest peak in the Faroe Islands. It was a beautiful day, but there was a thick fog covering the peak.",15,,,,62.2969053,-7.013397217,,,,
+DAY 8 - SUNDAY,/faroe-islands/img/journal.jpeg,,,Sunday 8/22/2021,,,,,,,,,,
+DAY 9 - MONDAY,/faroe-islands/img/domeHome.jpeg,,,"Monday 8/23/2021
+Final Day - ",,,,,,,,,,
+DAY 10 - TUESDAY,/faroe-islands/img/nightBike.jpeg,,,"Tuesday 8/24/2021
+Copenhagen",15,,,,55.66922318,12.57496834,,,,
+DAY 11 - WEDNESDAY ,,,,Wednesday 8/25/201,,,,,,,,,,
+"<a href=''https://dalbinator.github.io"">Home</a>",,,,,,,,,,,,,,

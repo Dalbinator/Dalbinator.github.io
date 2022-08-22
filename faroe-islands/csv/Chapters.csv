@@ -37,7 +37,7 @@ KOKS,,,,"Most of our meals while traveling are homemade meals from local foods w
 ,/faroe-islands/img/Koks.jpeg,Koks.,,,16,,,,62.13649303,-7.022066116,,,,
 DAY 6 - THE JOURNEY TO FUGLOY,,,,"The Island of Fugloy is more remote than some and while there is a ferry, it often can't dock due to rough weather, so a helicopter flys daily to and from Fugloy for the dozen or so residents of the island to bring supplies or allow them to come and go more easily. The Danish government subsidizes the helicopter, this means non-residents can fly very cheaply to Fugloy. However, you're only allowed a one-way flight which means, after arriving in Kirkja you must travel to the other town, Hattarvik in order to catch the ferry back to the ""mainland"". Be sure to call the ferry to let them know you need a ride. ",11,,,,62.28038141,-6.405715942,,,geojson/fugloy.geojson,color:black;weight:3
 ,/faroe-islands/img/helicopter.jpg,Loading for our first helicopter flight.,,,,,,,,,,,,
-,,,,"<video width=""400"" controls>
+,,,,"<video class=""video"" width=""400"" controls>
   <source src=""/faroe-islands/img/heloFlight.webm"" type=""video/webm"">
   Your browser does not support HTML video.
 </video>",,,,,,,,,,

@@ -118,6 +118,10 @@ body {
   width: 100%;
 }
 
+.video {
+  max-height: 400px;
+}
+
 .audio-container {
   margin: 0;
   margin-bottom: 5px;

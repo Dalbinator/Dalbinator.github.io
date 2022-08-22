@@ -11,16 +11,16 @@ Flight from CPH to FAE (2 hrs)",3,Hidden,,Flight,48.719961,-36.185918,,,geojson/
 The rest of the day was spent talking to our host, learning a bit about the Faroe Islands and making plans for the next few days. ",11,Hidden,,Vágar Airport,62.16037174,-7.109527588,,,geojson/arrival.geojson,color:black;weight:3
 ,/faroe-islands/img/LunchSaksun.jpg,Lunch in Saksun,,,15,Hidden,green-dark,Saksun,62.241611,-7.160276,,,,
 DAY 2 - HIKE FROM TJØRNUVIK,,,,"We decided to start our tour of the Islands with the trail from Tjørnuvik to Saksun. It has a very steep ascent out of Tjørnuvik, it's difficult, but because of the quick ascent you get a beautiful view of the town and it's beach.",13,Hidden,green-dark,Tjørnuvík,62.27439226,-7.183170319,,,geojson/tjornuvik.geojson,color:black;weight:3
-,/faroe-islands/img/1.png,,,"This hike taught us an important lesson about hiking in the Faroe islands. It is very difficult to judge the distances you are looking at. I suspect, because of the lack of trees, there are no visual clues as to the scale. In the end this means things tend to be much farther than they look.",,,,,,,,,,
+,/faroe-islands/img/1.png,,,"This hike taught us an important lesson about hiking in the Faroe islands. It is very difficult to judge the distances you are looking at. I suspect, because of the lack of trees, there are no visual clues as to the scale. In the end this means things tend to be much farther than they look.",,,,,,,,,geojson/tjornuvik.geojson,color:black;weight:3
 ,/faroe-islands/img/2.png,,,,,Plain,green-dark,,,,,,geojson/tjornuvik.geojson,color:black;weight:3
 ,/faroe-islands/img/4.png,Lunch on the rocky pass between two peaks.,,,,Plain,green-dark,,,,,,geojson/tjornuvik.geojson,color:black;weight:3
 ,/faroe-islands/img/5.png,,,,,Plain,green-dark,,,,,,geojson/tjornuvik.geojson,color:black;weight:3
 "DAY 3 - PUFFINS
-<p>Middagsfjall</p>",,,,"One of the great things about the Faroe Islands is they're pretty small, so you can drive just about anywhere in a short time and it's photo-perfect landscape every moment of the drive. We headed north from Kollafjørður past Slættaratindur (the highest peak) to hike Middagsfjall. ",13,,,,62.30741759,-6.944088936,,,,
+<p>Middagsfjall</p>",,,,"One of the great things about the Faroe Islands is they're pretty small, so you can drive just about anywhere in a short time and it's photo-perfect landscape every moment of the drive. We headed north from Kollafjørður past Slættaratindur (the highest peak) to hike Middagsfjall. ",14,,,,62.30741759,-6.944088936,,,,
 ,/faroe-islands/img/Faroe Islands 2021 - 1 of 1 (2).png,View from Middagsfjall,,,,,,,,,,,,
-The Cliffs Above Gjógv,,,,From Middagsfjall we set out for the town of Gjógv. From Gjógv we set out on a short but very step hike north of town. Their was a steep slope down to the town behind us and in front of us a sheer drop into the Atlantic Ocean. The cliff is dotted with Puffins diving down for fish and then returning to their ledges.,16,Plain,green-dark,,62.29155798,-6.937351227,,,,
+The Cliffs Above Gjógv,,,,From Middagsfjall we set out for the town of Gjógv. From Gjógv we set out on a short but very step hike north of town. Their was a steep slope down to the town behind us and in front of us a sheer drop into the Atlantic Ocean. The cliff is dotted with Puffins diving down for fish and then returning to their ledges.,14,Plain,green-dark,,62.32872014,-6.944410801,,,,
 ,/faroe-islands/img/puffin.jpg,We saw puffins for the first time!,,,,,,,,,,,,
-DAY 4 - KALLUR LIGHTHOUSE,,,,"While most of the larger islands are connected by bridges or sub-sea tunnels, the island of Kalsoy is not. So that meant boarding the a ferry for the trip to the iconic Kallur Lighthouse. ",16,Plain,green-dark,,62.37016545,-6.811587811,,,,
+DAY 4 - KALLUR LIGHTHOUSE,,,,"While most of the larger islands are connected by bridges or sub-sea tunnels, the island of Kalsoy is not. So that meant boarding the a ferry for the trip to the iconic Kallur Lighthouse. ",15,Plain,green-dark,,62.37016545,-6.811587811,,,,
 ,/faroe-islands/img/lighthouse.jpg,,,,,,,,,,,,,
 ,/faroe-islands/img/lighthousePoint.jpg,From the Lighthouse looking out over the vast Atlantic.,,,,,,,,,,,,
 DAY 5 - OLD POSTAL ROUTE TO GÁSADALUR,,,,"Perhaps my favorite hike of the trip was the ""Old Postal Route to Gásadalur"". So named because, until 2004, the town of Gásadalur was not accesible by road and a post-worker had to make the hike along the side of the mountain to the town to deliver mail. The hike also brings you into town right past the spot of perhaps the most iconic scene from the Faroe isalnds. 
@@ -28,42 +28,42 @@ DAY 5 - OLD POSTAL ROUTE TO GÁSADALUR,,,,"Perhaps my favorite hike of the trip 
 On the way we did encounter a common traffic delay in the islands. ",14,Hidden,,,62.09753696,-7.410793304,,,geojson/gasadalur.geojson,color:black;weight:3
 ,/faroe-islands/img/traffic.jpeg,A traffic jam in the Faroe Islands,,"Sheep are far more common than cows (sheep outnumber people by about 50,000 or 2 to 1) so we were super excited to get a nice close view of some highland cows!
 <br>
-As a side note ""The name Føroyar (Faroe Islands) is derived from old Norse Færeyjar and literally means Sheep Islands, a name given by the Norse people that settled these rough and wind-swept isles during the Viking Age.""",,,,,,,,,,
-,/faroe-islands/img/oldPostRoute.jpeg,,,,,,,,,,,,,
-,/faroe-islands/img/gasadalur2.jpeg,The Iconic Waterfall of Gásadalur,,,,,,,,,,,,
-KOKS,,,,"Most of our meals while traveling are homemade meals from local foods we find at grocery stores but we decided to make an exception for Koks. Koks is a 2 Michelin Star restaurant in a low, grass-roofed house situated at the base of a mountain. The location has since moved but at the time they picked you up in a classic Land Rover Defender for a short drive along the edge of a lake to dinner",,,,,,,,,,
+As a side note ""The name Føroyar (Faroe Islands) is derived from old Norse Færeyjar and literally means Sheep Islands, a name given by the Norse people that settled these rough and wind-swept isles during the Viking Age.""",,,,,,,,,geojson/gasadalur.geojson,color:black;weight:3
+,/faroe-islands/img/oldPostRoute.jpeg,,,,,,,,,,,,geojson/gasadalur.geojson,color:black;weight:3
+,/faroe-islands/img/gasadalur2.jpeg,The Iconic Waterfall of Gásadalur,,,,,,,,,,,geojson/gasadalur.geojson,color:black;weight:3
+KOKS,,,,"Most of our meals while traveling are homemade meals from local foods we find at grocery stores but we decided to make an exception for Koks. Koks is a 2 Michelin Star restaurant in a low, grass-roofed house situated at the base of a mountain. The location has since moved but at the time they picked you up in a classic Land Rover Defender for a short drive along the edge of a lake to dinner",15,,,,62.13649303,-7.022066116,,,,
 ,/faroe-islands/img/LandRover.jpeg,Land Rover and the receiving cabin where you wait for everyone to arrive.,,,,,,,,,,,,
 ,/faroe-islands/img/Apps.jpeg,Appetizers while looking over the lake.,,,,,,,,,,,,
-,/faroe-islands/img/Koks.jpeg,Koks.,,,16,,,,62.13649303,-7.022066116,,,,
+,/faroe-islands/img/Koks.jpeg,Koks.,,,15,,,,62.13649303,-7.022066116,,,,
 DAY 6 - THE JOURNEY TO FUGLOY,,,,"The Island of Fugloy is more remote than some and while there is a ferry, it often can't dock due to rough weather, so a helicopter flys daily to and from Fugloy for the dozen or so residents of the island to bring supplies or allow them to come and go more easily. The Danish government subsidizes the helicopter, this means non-residents can fly very cheaply to Fugloy. However, you're only allowed a one-way flight which means, after arriving in Kirkja you must travel to the other town, Hattarvik in order to catch the ferry back to the ""mainland"". Be sure to call the ferry to let them know you need a ride. ",11,,,,62.28038141,-6.405715942,,,geojson/fugloy.geojson,color:black;weight:3
-,/faroe-islands/img/helicopter.jpg,Loading for our first helicopter flight.,,,,,,,,,,,,
+,/faroe-islands/img/helicopter.jpg,Loading for our first helicopter flight.,,,,,,,,,,,geojson/fugloy.geojson,color:black;weight:3
 ,,,,"<video class=""video"" width=""400"" controls>
   <source src=""/faroe-islands/img/heloFlight.webm"" type=""video/webm"">
   Your browser does not support HTML video.
-</video>",,,,,,,,,,
+</video>",,,,,,,,,geojson/fugloy.geojson,color:black;weight:3
 ,,,,"Hattarvik, where you board the ferry, faces the open ocean. This means the water can be quite rough and you'll have to jump on to the ferry as it rides the large waves.",11,,,,62.28038141,-6.405715942,,,geojson/fugloy.geojson,color:black;weight:3
-,/faroe-islands/img/clareBoat.jpg,Ferry rides are a great way to get a unique look at the islands from the water.,,,11,,,,62.31262251,-6.348381042,,,,
-,/faroe-islands/img/Clare on Ferry.png,Clare enjoying the calm waters after the rough open ocean.,,,11,,,,62.27766647,-6.482963562,,,,
+,/faroe-islands/img/clareBoat.jpg,Ferry rides are a great way to get a unique look at the islands from the water.,,,11,,,,62.31262251,-6.348381042,,,geojson/fugloy.geojson,color:black;weight:3
+,/faroe-islands/img/Clare on Ferry.png,Clare enjoying the calm waters after the rough open ocean.,,,11,,,,62.27766647,-6.482963562,,,geojson/fugloy.geojson,color:black;weight:3
 DAY 7 - SUMMIT,,,,"We hiked Slættaratindur, the highest peak in the Faroe Islands. It was a beautiful day at the base, but as we ascended we climbed into a thick cloud covering the peak.",13,,,,62.2969053,-7.013397217,,,,
 ,/faroe-islands/img/Summit.jpeg,,,,,,,,,,,,,
-DAY 8 - SUNDAY,,,,"We took a day off from hiking to explore a little more of the history of the island at the Faroe Islands National Museum in Tórshavn. There is so much to explore from the history of how the islands formed, to how they were settled and even a small cluster of buildings showing traditional building techniques and how people have lived there in the past. ",12,,,,62.02203,6.784775,,,,
-,/faroe-islands/img/journal.jpeg,,,Visited <a href='https://www.nlh.fo/en/rooms/klingran/' target='_blank'>The Nordic House Cultural Center</a>,13,,,,62.02203,6.784775,,,62.11901063,-7.096610069
-DAY 9 - FINAL HIKE,,,,For our final hike we went as far north as you can drive to hike Villingadalsfjall. Probably one of the most difficult hikes we did as there were many false peaks and everything was much father away than it appeared. A very appropriate send-off from the Islands. ,11,,,,62.379437,-6.559541,,,,
+DAY 8 - SUNDAY,,,,"We took a day off from hiking to explore a little more of the history of the island at the Faroe Islands National Museum in Tórshavn. There is so much to explore from the history of how the islands formed, to how they were settled and even a small cluster of buildings showing traditional building techniques and how people have lived there in the past. ",12,,,,62.022039,-6.784631,,,,
+,/faroe-islands/img/journal.jpeg,,,Visited <a href='https://www.nlh.fo/en/rooms/klingran/' target='_blank'>The Nordic House Cultural Center</a>,13,,,,62.022039,-6.784631,,,62.11901063,-7.096610069
+DAY 9 - FINAL HIKE,,,,For our final hike we went as far north as you can drive to hike Villingadalsfjall. Probably one of the most difficult hikes we did as there were many false peaks and everything was much father away than it appeared. A very appropriate send-off from the Islands. ,13,,,,62.379437,-6.559541,,,,
 ,/faroe-islands/img/lastHike.jpg,,,,13,,,,62.379437,-6.559541,,,,
 ,/faroe-islands/img/clarePainting.jpg,,,Clare took some time to paint and we took some photos of the Travel Watercolor Painting Kit that we had been developing. ,,,,,,,,,,
 DAY 10 - TO COPENHAGEN,,,,Our last day in the islands we toward Bøur and drove around until we found these little Geo-Dome Houses that Clare had heard about. From their we headed to the airport for a short flight and an overnight stay in Copenhagen. ,14,,,,62.11901063,-7.096610069,,,,
 ,/faroe-islands/img/domeHome.jpeg,,,,14,,,,62.11901063,-7.096610069,,,,
 COPENHAGEN,,,,Bikes are everywhere in Copenhagen and so of course we rented some bikes and took a quick ride through the city and along the water.,11,,,,55.65115151,12.59428024,,,,
 ,/faroe-islands/img/bikes.jpeg,Single level bike storage is not enough here. ,,,,,,,,,,,,
-,/faroe-islands/img/nightBike.jpeg,,,,15,,,,55.66922318,12.57496834,,,,
+,/faroe-islands/img/nightBike.jpeg,,,,16,,,,55.66922318,12.57496834,,,,
 ,,,,We booked a room at CityHub and were not dissapointed. We made sure to get up early in the morning to have a short session in the sauna. ,,,,,,,,,,
-,,,,"<video width=""400"" controls>
+,,,,"<video class=""video"" width=""400"" controls>
   <source src=""/faroe-islands/img/copenhagenRoom.mp4"" type=""video/mp4"">
   Your browser does not support HTML video.
 </video>",15,,,,55.671586,12.546688,,,,
 DAY 11 - HOME ,,,,"The original plan was to catch a bus back to the airport but after discovering the bike rentals we opted for the authentic Danish experience and rode bikes, bags strapped on, to the airport. ",13,,,,55.65115151,12.59428024,,,geojson/airportBikeRide.geojson,color:black;weight:4
 ,/faroe-islands/img/airportBike.jpeg,,,,,,,,,,,,geojson/airportBikeRide.geojson,color:black;weight:4
-,,,,,,,,,,,,,,
+,,,,,3,Hidden,,Flight,48.719961,-36.185918,,,geojson/dtoc.geojson,color:black;weight:5
 ,,,,"
 <div class=""row""> 
  <div class=""column""> 

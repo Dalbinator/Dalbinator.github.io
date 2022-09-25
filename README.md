@@ -1,6 +1,3 @@
-# Leaflet Storymaps using Google Sheets
-This project is my first real attempt at learning to code.
-I have learned very basic html and css to customize my business' website but don't truely understand how it works. I have no experience with js.
 
 This repo has been created based on files from:
 - https://handsondataviz.github.io/leaflet-storymaps-with-google-sheets/#2

@@ -1,14 +1,14 @@
 Chapter,Media Link,Media Credit,Media Credit Link,Description,Zoom,Marker,Marker Color,Location,Latitude,Longitude,Overlay,Overlay Transparency,GeoJSON Overlay,GeoJSON Feature Properties
-,/faroe-islands/img/flag.png,,,,9,Hidden,,Faroe Islands,61.8926,-6.9118,,,,
+,/faroe-islands/img/flag.png,,,,9,Hidden,,Faroe Islands,61.8926,-6.9118,https://mapwarper.net/maps/tile/20449/{z}/{x}/{y}.png,1,,
 IAD to CPH to FAE,,,,"<p align:""center"">Flight from IAD to CPH (7.5hrs)</p>
 <br>
 3 hr layover
 <br>
-Flight from CPH to FAE (2 hrs)",3,Hidden,,Flight,48.719961,-36.185918,,,geojson/dtoc.geojson,color:black;weight:5
+Flight from CPH to FAE (2 hrs)",3,Hidden,,Flight,48.719961,-36.185918,https://mapwarper.net/maps/tile/20449/{z}/{x}/{y}.png,1,geojson/dtoc.geojson,color:black;weight:5
 "DAY 1 - ARRIVAL
 <p align:""center"">Vágar Airport to Kollafjørður to Saksun</p>",,,,"After arriving in the Faroe Islands we drove to Kollafjørður to check-in to our AirBNB for the next couple of days. Then we took a quick drive north to the old village of Saksun for Lunch.
 <br>
-The rest of the day was spent talking to our host, learning a bit about the Faroe Islands and making plans for the next few days. ",11,Hidden,,Vágar Airport,62.16037174,-7.109527588,,,geojson/arrival.geojson,color:black;weight:3
+The rest of the day was spent talking to our host, learning a bit about the Faroe Islands and making plans for the next few days. ",11,Hidden,,Vágar Airport,62.16037174,-7.109527588,https://mapwarper.net/maps/tile/20449/{z}/{x}/{y}.png,1,geojson/arrival.geojson,color:black;weight:3
 ,/faroe-islands/img/LunchSaksun.jpg,Lunch in Saksun,,,15,Hidden,green-dark,Saksun,62.241611,-7.160276,,,,
 DAY 2 - HIKE FROM TJØRNUVIK,,,,"We decided to start our tour of the Islands with the trail from Tjørnuvik to Saksun. It has a very steep ascent out of Tjørnuvik, it's difficult, but because of the quick ascent you get a beautiful view of the town and it's beach.",13,Hidden,green-dark,Tjørnuvík,62.27439226,-7.183170319,,,geojson/tjornuvik.geojson,color:black;weight:3
 ,/faroe-islands/img/1.png,,,"This hike taught us an important lesson about hiking in the Faroe islands. It is very difficult to judge the distances you are looking at. I suspect, because of the lack of trees, there are no visual clues as to the scale. In the end this means things tend to be much farther than they look.",,,,,,,,,geojson/tjornuvik.geojson,color:black;weight:3

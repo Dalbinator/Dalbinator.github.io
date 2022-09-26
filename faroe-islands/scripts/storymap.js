@@ -94,14 +94,22 @@ $(window).on('load', function() {
    * Loads the basemap and adds it to the map combo platter*/
    /*https://api.maptiler.com/maps/outdoor/{z}/{x}/{y}.png?key=K4a9knT0iEiGCzwTgiXu
    https://tile.thunderforest.com/cycle/{z}/{x}/{y}.png?apikey=94df2c1a3f5143e9a142ca9523a8c3ca*/
+
+/* previous version using maptiler
   function addBaseMap() {
     var tileUrl = 'https://api.maptiler.com/maps/outdoor/256/{z}/{x}/{y}.png?key=K4a9knT0iEiGCzwTgiXu',
 layer = new L.TileLayer(tileUrl, {maxZoom: 18});
 // add the layer to the map
 map.addLayer(layer);
+  } */
+
+/*trying google */
+  function addBaseMap() {
+    var tileUrl = 'http://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}',
+layer = new L.TileLayer(tileUrl, {maxZoom: 18});
+// add the layer to the map
+map.addLayer(layer);
   }
-
-
 
   function initMap(options, chapters) {
     createDocumentSettings(options);

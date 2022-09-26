@@ -1,73 +1,43 @@
 <!DOCTYPE html>
+<html lang="en">
 <html>
-
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta name="viewport" content="initial-scale=1, maximum-scale=1,user-scalable=no"/>
-  <link rel="icon" type="image/png" href="./favicon.png">
-  <title>Leaflet Storymaps with Google Sheets Template</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <!-- Load Leaflet CSS and JS-->
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
-    integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
-    crossorigin=""/>
-  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
-    integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
-    crossorigin=""></script>
-
-  <!-- Load Leaflet basemap providers -->
-  <script src="https://unpkg.com/leaflet-providers@1.10.2/leaflet-providers.js"></script>
-
-  <!-- Load jQuery  -->
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
-
-  <!-- Load PapaParse -->
-  <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.0/papaparse.min.js"></script>
-
-  <!-- Load Lightbox -->
-  <script src="scripts/lightbox/js/lightbox.js"></script>
-  <link rel="stylesheet" href="scripts/lightbox/css/lightbox.css" />
-
-  <!-- Load Font-Awesome -->
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-  <link rel="stylesheet" href="markers/leaflet.extra-markers.min.css">
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/style-desktop.css">
-  <link rel="stylesheet" href="css/loader.css">
+  <link href="/css/style.css" rel="stylesheet"/>
+  <link rel="stylesheet" href="/css/style-mobile.css">
+  <title>Josh Dalby Photos</title>
+  <link rel="icon" type="image/png" href="/faroe-islands/favicon.png">
 </head>
-
+<header>
+  <img src="/img/Norway-2.jpg" id="header-image" alt="photo of iconic Lofoten town">
+</header>
 <body>
 
-  <div id="title">
-    <div id="logo"></div>
-    <div id="header"></div>
-  </div>
+<section>
+  <h1 class="sectionHeading">JOURNEYS</h1>
+</section>
 
-  <div id="narration">
-    <div id="contents">
-      <div id="top"></div>
+<section>
+  <div class="row">
+    <div class="column">
+      <a href="https://dalbinator.github.io/faroe-islands/">
+        <img class="img-link" src="/img/GasadalurFalls.jpg" alt="Gasadalur Waterfall, Faroe Islands"
+      </a>
+      <div class="overlayText">FAROE ISLANDS</div>
     </div>
+    
+    <div class="column">
+      <a  href="https://dalbinator.github.io/lofoten/">
+        <img class="img-link" src="/img/NorwayNusfjordBoat.jpg" alt="Nusfjord, Norway"
+      </a> 
+      <div class="overlayText">LOFOTEN, NORWAY</div>
+    </div>
+    
   </div>
+</section>
 
-  <div class="loader">Loading...</div>
-  <div id="map"></div>
-
-  <script type="text/javascript">
-    // Create the Leaflet map with a generic start point
-    var map = L.map('map', {
-      center: [0, 0],
-      zoom: 1,
-      scrollWheelZoom: false,
-      zoomControl: false,
-      tap: false
-    });
-  </script>
-
-  <script type="text/javascript" src="google-doc-url.js"></script>
-  <script type="text/javascript" src="markers/leaflet.extra-markers.min.js"></script>
-  <script type="text/javascript" src="scripts/constants.js"></script>
-  <script type="text/javascript" src="scripts/jquery.csv.js"></script>
-  <script type="text/javascript" src="scripts/storymap.js"></script>
 
 </body>
-</html>
+</html> 

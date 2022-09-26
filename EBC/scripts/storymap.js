@@ -2,10 +2,10 @@ $(window).on('load', function() {
   var documentSettings = {};
 
   // Some constants, such as default settings
-  const CHAPTER_ZOOM = 9;
+  const CHAPTER_ZOOM = 15;
 
   // First, try reading Options.csv
-    $.get('csv/Options.csv', function(options) {
+  $.get('csv/Options.csv', function(options) {
 
     $.get('csv/Chapters.csv', function(chapters) {
       initMap(
@@ -14,10 +14,8 @@ $(window).on('load', function() {
       )
     }).fail(function(e) { alert('Found Options.csv, but could not read Chapters.csv') });
 
-  // If not available, try from the Google  Sheet
-  }).fail(function(e) 
-  
-  {
+  // If not available, try from the Google Sheet
+  }).fail(function(e) {
 
     var parse = function(res) {
       return Papa.parse(Papa.unparse(res[0].values), {header: true} ).data;
@@ -27,15 +25,17 @@ $(window).on('load', function() {
     if (typeof googleDocURL !== 'undefined' && googleDocURL) {
 
       if (typeof googleApiKey !== 'undefined' && googleApiKey) {
-		
-          $.when(
-			  $.getJSON('https://sheets.googleapis.com/v4/spreadsheets/1MfVNAPik_NkAN65qJHIFoRtvTicKpdePMdZ7hoGdRKA/edit#gid=0/values/Options?key=AIzaSyB49xQTNQSVATYAihUGv72DUQkxRq9ySis'),
-            $.getJSON('https://sheets.googleapis.com/v4/spreadsheets/1MfVNAPik_NkAN65qJHIFoRtvTicKpdePMdZ7hoGdRKA/edit#gid=0/values/Chapters?key=AIzaSyB49xQTNQSVATYAihUGv72DUQkxRq9ySis'),
-          ).then(function(options, chapters) {
-            initMap(parse(options), parse(chapters))
-          })
-		  
-		  
+
+        var apiUrl = 'https://sheets.googleapis.com/v4/spreadsheets/'
+        var spreadsheetId = googleDocURL.split('/d/')[1].split('/')[0];
+
+        $.when(
+          $.getJSON(apiUrl + spreadsheetId + '/values/Options?key=' + googleApiKey),
+          $.getJSON(apiUrl + spreadsheetId + '/values/Chapters?key=' + googleApiKey),
+        ).then(function(options, chapters) {
+          initMap(parse(options), parse(chapters))
+        })
+
       } else {
         alert('You load data from a Google Sheet, you need to add a free Google API key')
       }
@@ -79,34 +79,20 @@ $(window).on('load', function() {
     return s;
   }
 
-  /*
+  /**
    * Loads the basemap and adds it to the map
-   
+   */
   function addBaseMap() {
     var basemap = trySetting('_tileProvider', 'Stamen.TonerLite');
     L.tileLayer.provider(basemap, {
       maxZoom: 18
     }).addTo(map);
   }
-  */
-
-  /**
-   * Loads the basemap and adds it to the map combo platter*/
-   /*https://api.maptiler.com/maps/outdoor/{z}/{x}/{y}.png?key=K4a9knT0iEiGCzwTgiXu
-   https://tile.thunderforest.com/cycle/{z}/{x}/{y}.png?apikey=94df2c1a3f5143e9a142ca9523a8c3ca*/
-  function addBaseMap() {
-    var tileUrl = 'https://api.maptiler.com/maps/outdoor/256/{z}/{x}/{y}.png?key=K4a9knT0iEiGCzwTgiXu',
-layer = new L.TileLayer(tileUrl, {maxZoom: 18});
-// add the layer to the map
-map.addLayer(layer);
-  }
-
-
 
   function initMap(options, chapters) {
     createDocumentSettings(options);
 
-    var chapterContainerMargin = 0px;
+    var chapterContainerMargin = 70;
 
     document.title = getSetting('_mapTitle');
     $('#header').append('<h1>' + (getSetting('_mapTitle') || '') + '</h1>');
@@ -139,12 +125,10 @@ map.addLayer(layer);
         if (markers[i] && markers[i]._icon) {
           markers[i]._icon.className = markers[i]._icon.className.replace(' marker-active', '');
 
-          /*comment to remove active maker color
           if (i == k) {
-            /* Adds marker-active class, which is orange, to marker k 
+            /* Adds marker-active class, which is orange, to marker k */
             markers[k]._icon.className += ' marker-active';
-          } 
-          */ 
+          }
         }
       }
     }
@@ -274,7 +258,7 @@ map.addLayer(layer);
 
     changeAttribution();
 
-    /* Change image container heights Original
+    /* Change image container heights */
     imgContainerHeight = parseInt(getSetting('_imgContainerHeight'));
     if (imgContainerHeight > 0) {
       $('.img-container').css({
@@ -282,16 +266,6 @@ map.addLayer(layer);
         'max-height': imgContainerHeight + 'px',
       });
     }
-    */
-
-        /* Change image container heights Josh*/
-        imgContainerHeight = parseInt(getSetting('_imgContainerHeight'));
-        if (imgContainerHeight > 0) {
-          $('.img-container').css({
-            'height': imgContainerHeight + 'px',
-            'max-height': imgContainerHeight + 'px',
-          });
-        }
 
     // For each block (chapter), calculate how many pixels above it
     pixelsAbove[0] = -100;

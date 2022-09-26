@@ -1,7 +1,7 @@
 body {
   padding: 0px;
   margin: 0px;
-  font-family: "Gotham", sans-serif;
+  font-family: "Helvetica", sans-serif;
   overflow: hidden;
 }
 
@@ -9,36 +9,10 @@ body {
   height: 200px;
   width: 100vw;
   position: absolute;
-  border-bottom: 1px solid #353535;
+  border-bottom: 3px solid orange;
   top: 0;
   left: 0;
 }
-
-/*for images gallery*/
-{
-  box-sizing: border-box;
-}
-
-.column {
-  float: left;
-  width: 45%;
-  padding: 5px;
-}
-
-/* Clearfix (clear floats) */
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-
-/* Responsive layout - makes the three columns stack on top of each other instead of next to each other 
-@media screen and (max-width: 500px) {
-  .column {
-    width: 100%;
-  }
-}
-/*end image gallery*/
 
 #narration {
   position: absolute;
@@ -46,7 +20,6 @@ body {
   width: 100vw;
   height: calc(100vh - 203px);
   z-index: 80;
-  background-color: #c8cad2 !important;
 }
 
 #contents {
@@ -73,9 +46,8 @@ body {
 #title {
   position: absolute;
   left: 0;
-  top: 201px;
-  background-color: #b1bfae !important;
-  /*background-color: #778899;*/
+  top: 203px;
+  background-color: white;
   width: 100vw;
   z-index: 100;
   margin: 0;
@@ -83,8 +55,6 @@ body {
   visibility: hidden;
   font-weight: bold;
   text-align: center;
-  border-bottom-right-radius: 30px;
-  border-bottom-left-radius: 30px;
 }
 
 .chapter-container {
@@ -102,7 +72,6 @@ body {
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 25px;
 
   /* Three lines that center vertically */
   position: relative;
@@ -151,7 +120,6 @@ a.source:visited {
 
 .in-focus {
   opacity: 1.0;
-  background-color: #c8cad2 !important;
 }
 
 .out-focus {
@@ -162,14 +130,8 @@ a.source:visited {
   visibility: hidden;
 }
 
-.leaflet-marker-icon, .extra-marker-shadow  {
-  visibility: hidden;
-}
-
-
-/*added to hide a thing*/
-.leaflet-left .leaflet-control {
-    visibility: hidden;
+.leaflet-marker-icon {
+  opacity: 0.75;
 }
 
 /*

@@ -125,10 +125,10 @@ $(window).on('load', function() {
         if (markers[i] && markers[i]._icon) {
           markers[i]._icon.className = markers[i]._icon.className.replace(' marker-active', '');
 
-          /* if (i == k) {
-            /* Adds marker-active class, which is orange, to marker k 
+          if (i == k) {
+            /* Adds marker-active class, which is orange, to marker k */
             markers[k]._icon.className += ' marker-active';
-          } comment out active color?*/
+          } 
         }
       }
     }

@@ -1,15 +1,15 @@
 @media screen and (min-width: 768px) {
 
   #narration {
-    width: 60vw;
+    width: 540px;
     height: 100vh;
-    max-width: 500px;
+    max-width: ;
     top: 0;
   }
 
   #map {
-    width: calc(100vw - 460px);
-    left: 460px;
+    width: calc(100vw - 540px);
+    left: 540px;
     height: 100vh;
     border: 0;
     z-index: 0;
